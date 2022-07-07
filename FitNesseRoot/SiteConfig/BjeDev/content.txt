@@ -1,0 +1,28 @@
+!|import|
+|fitnesse.slim.text|
+|fitnesse.fixtures|
+|DFAcceptanceTest|
+
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define dayforceServiceUri {http://localhost:56798/DayforceService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!define dsNotifReceiverServiceUri {!-http://localhost:51121/DFNotificationReceiverService.svc-!}
+!define requestUri {http://localhost:51000}
+!define siteRequestUri {${requestUri}/${SiteName}}
+!define deviceServiceUri {http://localhost:51294/DeviceService.svc}
+!define bindingTypeName {StandardHttpBinding}
+!define userName {cadmin}
+!define ClientName {DFLocal}
+!define SiteName {DFSite}
+!define password {1}
+!define ClientId {10001} 
+!define testServiceBindingTypeName {BasicHttpBinding}
+!define adminUserName {admin}
+!define adminPass {1}
+
+!define bjeServer {localhost\c$}
+!define BasePayrollOutputServicesDirectory {c:\FTPROOT\DFControl\PayrollOutputServices\}
+!define baseBjeFolder {c:\FTPROOT\DFControl\}
+
+
+!contents

@@ -1,0 +1,41 @@
+!define version {tnax1}
+!define site {atwfm1}
+
+Service Endpoints
+!define customDataServiceUri {https://${site}.dayforce.com/${version}/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://${site}.dayforce.com/${version}/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://${site}.dayforce.com/${version}/TestServices/TestService.svc}
+!define coreServiceUri {https://${site}.dayforce.com/${version}/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+
+Test Context
+!define baseRequestUri {https://${site}.dayforce.com/${version}/mydayforce/}
+!define userName {cadmin}
+!define password {1}
+
+
+Admin Portal Configuration
+!define adminRequestUri {https://${site}.dayforce.com/${version}/mydayforce/${site}${version}_site}
+!define admCoreServiceUri {https://atwfmadmin.dayforce.com/datasvc/CoreService.svc}
+!define admTestServiceUri {https://atwfmadmin.dayforce.com/TestServices/TestService.svc}
+!define admTestServiceBindingTypeName {StandardSslBinding}
+!define admBindingTypeName {StandardCustomSslBinding}
+!define adminNamespace {${site}${version}_site}
+!define adminUserName {admin}
+!define adminPass {admin123}
+
+BJE configuration
+!define bjrServer {ncqabje16}
+!define BasePayrollOutputServicesDirectory {\\${bjrServer}\_bje_imp_exp\atwfm${version}\PayrollOutputServices\}
+!define baseBjeFolder {\\${bjrServer}\_bje_imp_exp\atwfm${version}\}
+
+Selenium configuration
+!define clockURL {https://${site}.dayforce.com/${version}/clock/index.html}
+!define browser {firefox}
+
+Restful Api configuration
+!define restfulApiUri {https://${site}.dayforce.com/${version}/api/}
+!define restfulApiRootUri {https://${site}.dayforce.com/api/}
+
+!contents

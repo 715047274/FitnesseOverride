@@ -1,0 +1,4 @@
+!define ClientName {athrimport1x1_12}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

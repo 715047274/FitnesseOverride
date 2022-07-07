@@ -1,0 +1,5 @@
+!define ClientName {qaauto5}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+
+!contents

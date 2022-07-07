@@ -1,0 +1,6 @@
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,fitSharp\fitSharp.dll %p}
+!define TEST_RUNNER {fitSharp\Runner.exe}
+!define TEST_SYSTEM {slim}
+!define deployerLocation {!-DatabaseDeployer\db_deployer-!}
+!define dataRetreivalScript {!-CompareTool\DataRetrievalScripts\PayrollRegisterQuery.sql-!}
+!contents

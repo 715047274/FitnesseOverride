@@ -1,0 +1,6 @@
+!- ***  FoodTown *** -!
+
+!define ClientName {at${release}rep29b}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

@@ -1,0 +1,27 @@
+
+!define version {748}
+
+!define baseRequestUri {https://autotest.dayforce.com/${version}atrec/mydayforce/}
+!define baseCandidatePortalUri {https://autotest.dayforce.com/${version}atrec/CandidatePortal/}
+!define baseCandidatePortalIframeUri {https://autotest.dayforce.com/748atrec/CandidatePortal/SampleClientHost.html}
+!define customDataServiceUri {https://autotest.dayforce.com/${version}atrec/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://autotest.dayforce.com/${version}atrec/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://autotest.dayforce.com/${version}atrec/TestServices/TestService.svc}
+!define coreServiceUri {https://autotest.dayforce.com/${version}atrec/DataSvc/CoreService.svc}
+!define loginUri {https://autotest.dayforce.com/${version}atrec/mydayforce/MyDayforce.aspx}
+!define sovrenServiceUri {https://autotest.dayforce.com/${version}atrec/DataSvc/SovrenService.svc}
+
+!define bindingTypeName {StandardSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define bjeServer {ncqabje8}
+!define baseBjeFolder {\\${bjeServer}\_bje_imp_exp\_${version}atrec\}
+!define appServer {ncqaapp08}
+!define baseCandidatePortalFolder {\\${appServer}\Dayforce\autotest\${version}atrec\CandidatePortal\}
+!define candidatePortalFile {${baseCandidatePortalFolder}SampleClientHost.html}
+!define BasePayrollOutputServicesDirectory {\\${bjeServer}\_bje_imp_exp\_${version}atrec\PayrollOutputServices\}
+!define BaseSovrenDirectory {\\ncqaapp05\Sovren_${version}}
+
+!contents

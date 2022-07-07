@@ -1,0 +1,11 @@
+!define ClientName {atob${version}2}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define candidateUri {${baseCandidatePortalUri}en-US/${ClientName}}
+!define candidateUriIframe {${baseCandidatePortalUri}${ClientName}.html}
+!define candidatePortalIframe {${baseCandidatePortalFolder}${ClientName}.html}
+!define ClientId {10002}
+!define CultureId {1033}
+!define SovrenDiobtory {${BaseSovrenDiobtory}Resume_at${version}ob2-temp\XML}
+!define EmployeeId {15600862180}
+!define ManagerId {25600862180}
+!contents

@@ -1,0 +1,17 @@
+!define version {851}
+
+!define baseRequestUri {https://autotest.dayforce.com/mydayforce}
+!define baseCandidatePortalUri {https://autotest.dayforce.com/${version}ben/CandidatePortal/}
+!define customDataServiceUri {https://autotest.dayforce.com/${version}ben/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://autotest.dayforce.com/${version}ben/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://autotest.dayforce.com/${version}ben/TestServices/TestService.svc}
+!define coreServiceUri {https://autotest.dayforce.com/${version}ben/DataSvc/CoreService.svc}
+
+!define bindingTypeName {StandardSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define baseBjeFolder {\\ncqabje16\_bje_imp_exp\at${version}hr\}
+
+!contents

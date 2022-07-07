@@ -1,0 +1,2 @@
+!path ..\DFAcceptanceTest\DFAcceptanceTest\bin\Debug\DFAcceptanceTest.dll
+!contents

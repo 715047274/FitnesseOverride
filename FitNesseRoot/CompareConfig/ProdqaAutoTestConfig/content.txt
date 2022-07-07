@@ -1,0 +1,39 @@
+#!define pathToSlim {C:\Dayforce\DayforceProdQA\SharpTop\Test\DFAcceptanceTest\FitNesse\fitsharp}
+#!define pathToFixture {C:\Dayforce\DayforceProdQA\SharpTop\Test\DFAcceptanceTest\DFAcceptanceTest\DFAcceptanceTest\bin\Debug}
+!define pathToSlim {E:\Dayforce\539\SharpTop\Test\DFAcceptanceTest\FitNesse\fitsharp}
+!define pathToFixture {E:\Dayforce\539\SharpTop\Test\DFAcceptanceTest\DFAcceptanceTest\DFAcceptanceTest\bin\Debug}
+
+!*> Global Definition
+
+!define PATH_TO_SLIM {${pathToSlim}}
+!define PATH_TO_FIXTURE (${pathToFixture})
+
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,${PATH_TO_SLIM}\fitSharp.dll -a ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll.config ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll}
+!define TEST_RUNNER {${PATH_TO_SLIM}\Runner.exe}
+*!
+
+!define testServiceUri {https://qa.dayforce.com/539autotest/DataSvc/TestService.svc}
+!define coreServiceUri {https://qa.dayforce.com/539autotest/DataSvc/CoreService.svc}
+!define baseRequestUri {https://qa.dayforce.com/539autotest/mydayforce/}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+!define release {539}
+
+!4 for the DB restore tool
+#!define BuildFolderLocation {!-\\torsvbuild06\builds\ncqaautocontrol\NCQAAUTOCONTROL\-!}
+!define BuildFolderLocation {}
+!define ControlDbName {539control_at}
+!define DbServer {Torsvqa02}
+!define DbServerUserName {wbpoc}
+!define DbServerPassword {sql@tfs2008}
+#!define ServerDrivesAvailable {d}
+#!define DbBackups {!-\\ncqadb01\DBBackups\-!${DbServer}!-\ncqaauto1\BuildBackups-!}
+!define DbBackups {!-\\torsvqa02\DBBackups\QAautotest-!}
+#!define Workspace {!-C:\Dayforce\DayforceRTQA\SharpTop-!}
+!define Workspace {!-E:\Dayforce\539\SharpTop-!}
+!define deployerLocation {!-DatabaseDeployer\db_deployer-!}
+!define ProductDbString {}
+
+!contents

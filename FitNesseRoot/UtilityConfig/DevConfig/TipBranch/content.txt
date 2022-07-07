@@ -1,0 +1,4 @@
+# defines where to get the DB upgrade scripts from
+!define Workspace {!-C:\Workspaces\Dayforce\SharpTop-!}
+!define ControlDbName {DFControl}
+!contents

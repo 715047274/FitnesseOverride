@@ -1,0 +1,6 @@
+!-  ***  Mvp *** -!
+
+!define ClientName {atdap${release}_56055}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

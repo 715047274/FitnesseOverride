@@ -1,0 +1,12 @@
+!define ClientId {13765}
+!define ClientDb {autotest26} 
+!define prodClientName {${prodRelease}${ClientDb}}
+!define prodRequestUri {${prodBaseRequestUri}${prodClientName}}
+!define prodClientNameAndId {${prodClientName}!-_-!${ClientId}}
+!define rtqaClientName {${rtqaRelease}${ClientDb}}
+!define rtqaRequestUri {${rtqaBaseRequestUri}${rtqaClientName}}
+!define rtqaClientNameAndId {${rtqaClientName}!-_-!${ClientId}}
+!define prodCompareFilesLocation {${rtqaWorkspace}!-\TestResults\-!${prodRelease}${ClientDb}}
+!define rtqaCompareFilesLocation {${rtqaWorkspace}!-\TestResults\-!${rtqaRelease}${ClientDb}}
+
+!contents -R2 -g -p -f -h

@@ -1,0 +1,17 @@
+!define membershipServiceUri {https://prodqacontrol.dayforce.com/Membership/Membership.svc}
+!define dataProcessorServiceUri {https://prodqacontrol.dayforce.com/DataProcessor/DataProcessor.svc}
+!define customDataServiceUri {https://prodqacontrol.dayforce.com/DataSvc/CustomData.svc}
+!define testServiceUri {https://prodqacontrol.dayforce.com/TestServices/TestService.svc}
+!define coreServiceUri {https://prodqacontrol.dayforce.com/DataSvc/CoreService.svc}
+!define requestUri {https://prodqacontrol.dayforce.com/mydayforce/prodqa2}
+!define bindingTypeName {StandardSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+!define ClientName {prodqa2}
+
+!contents
+
+
+
+

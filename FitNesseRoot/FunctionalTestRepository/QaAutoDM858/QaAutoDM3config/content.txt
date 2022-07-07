@@ -1,0 +1,6 @@
+!define ClientName {qaautodmBJE3}
+!define ClientId {999903}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+
+!contents

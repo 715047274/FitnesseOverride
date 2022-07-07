@@ -1,0 +1,6 @@
+!-  ***  Aero( replaced by Isone ) *** -!
+
+!define ClientName {atrep${release}_17075}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

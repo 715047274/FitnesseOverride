@@ -1,0 +1,6 @@
+!-  ***  Allied *** -!
+
+!define ClientName {atrep${release}_10725}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

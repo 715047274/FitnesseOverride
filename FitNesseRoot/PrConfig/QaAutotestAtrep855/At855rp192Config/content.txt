@@ -1,0 +1,6 @@
+!- ***  ISO NE *** -!
+
+!define ClientName {at${release}rep192}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

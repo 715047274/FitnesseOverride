@@ -1,0 +1,15 @@
+!define ClientName {746qa2}
+!define NameSpace {perfaero746}
+!define requestUri {${baseRequestUri}${NameSpace}}
+!define siteRequestUri {${baseRequestUri}${SiteName}}
+!define PayrollOutputServicesDirectory {${BasePayrollOutputServicesDirectory}${NameSpace}\archive}
+!define ArcBjeLoc {${baseArcBjeLoc}${NameSpace}\Export\}
+!define TempBjeLoc {${baseTempBjeLoc}${NameSpace}\Export\Payroll Export\temp}
+!define BjeImportLoc {${baseBjeImportLoc}${NameSpace}\Import\HRImport}
+!define EmployeeManagerBjeImportLoc {${baseBjeImportLoc}${NameSpace}\Import\EmployeeManagerImport}
+
+!4 Parameters for Config Service testing
+
+
+
+!contents

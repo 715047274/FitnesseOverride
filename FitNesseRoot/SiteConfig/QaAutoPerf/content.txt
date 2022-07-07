@@ -1,0 +1,83 @@
+!4 General Site Info
+!define loginPage {https://qaautocontrol.dayforce.com/qaautoperf/mydayforce/MyDayforce.aspx}
+!define customDataServiceUri {https://qaautocontrol.dayforce.com/qaautoperf/DataSvc/CustomData.svc}
+!define baseRequestUri {https://qaautocontrol.dayforce.com/qaautoperf/mydayforce/}
+!define deviceServiceUri {https://qaautocontrol.dayforce.com/qaautoperf/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://qaautocontrol.dayforce.com/qaautoperf/TestServices/TestService.svc}
+!define coreServiceUri {https://qaautocontrol.dayforce.com/qaautoperf/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+!define userName {cadmin}
+!define password {1}
+!define SiteName {qaautoperf0}
+!define siteType {QA}
+!define admSiteName {qaautoperf}
+!define NameSpace {${ClientName}}
+!define siteRequestUri {${baseRequestUri}${SiteName}}
+
+!4 Admin Portal Info
+!define adminRequestUri {https://qaautoadminportal.dayforce.com/mydayforce/}
+!define adminNamespace {qaautoadminportal}
+!define adminUserName {sysadmin}
+!define adminPass {1}
+
+!4 Admin Portal Test Clients Info
+!define apSharpTopClientNs {qaautoperf9}
+!define apSharpTopClientId {333309}
+!define apSharpTopClientRequestUri {${baseRequestUri}${apSharpTopClientNs}}
+#Not my first choice to put this here, but no clear path to getting it out of the service layer
+#Should be replace with new AP session authentication
+!define adminPortalDBConn {provider=sqloledb;server=ncqadb01;database=qaautoadminportal;uid=wbpoc;pwd=sql@tfs2008}
+
+!4 Admin Service Info
+!define masterAdminWebServiceUri {https://qaautoadminportal.dayforce.com/datasvc/AdminService.svc}
+!define masterAdminWebServiceUsername {MasterSiteUser}
+!define masterAdminWebServicePassword {123456}
+!define masterAdminWebServiceBinding {StandardSslBinding}
+
+!4 BJE Info
+!define MasterBjeMachineName {NCQABJE1}
+!define bjrServer {ncqabje1}
+!define BasePayrollOutputServicesDirectory {\\${bjrServer}\_bje_imp_exp\_qaautocontrol_qaautoperf\PayrollOutputServices\}
+!define baseBjeFolder {\\${bjrServer}\_bje_imp_exp\_qaautocontrol_qaautoperf\}
+
+!define baseArcBjeLoc {${baseBjeFolder}}
+!define baseTempBjeLoc {${baseBjeFolder}}
+!define baseBjeImportLoc {${baseBjeFolder}}
+
+!define HrImportLocGood {Y:\Quality Assurance\Tools\FitNesse\HrImport\HRImport_EmpInfoOnly3.xml}
+!define HrImportLocBad {Y:\Quality Assurance\Tools\FitNesse\HrImport\HRImport_EmpInfoOnly4.xml}
+
+!4 Dayforce Services Info
+!define dsBindingTypeName {StandardSslBinding}
+!define dayforceServiceUri {https://qaautocontrol.dayforce.com/qaautoperf/DataSvc/DayforceService.svc}
+!define dsNotifReceiverServiceUri {!-https://qaautocontrol.dayforce.com/qaautoperf/DataSvc/DFNotificationReceiverService.svc-!}
+#!define dsNotifReceiverServiceUri {http://localhost:51121/DFNotificationReceiverService.svc}
+
+!4 Selenium configuration
+!define clockURL {https://qaautocontrol.dayforce.com/qaautoperf/clock/index.html}
+#!define browser {firefox}
+
+#----------------------ADMIN PORTAL SITE
+!4 General Admin Portal Site Info
+!define admRequestUri {https://qaautoadminportal.dayforce.com/mydayforce/qaautoadminportal}
+!define admCoreServiceUri {https://qaautoadminportal.dayforce.com/datasvc/CoreService.svc}
+!define admTestServiceUri {https://qaautoadminportal.dayforce.com/TestServices/TestService.svc}
+!define admTestServiceBindingTypeName {StandardSslBinding}
+!define admBindingTypeName {StandardCustomSslBinding}
+!define admUserName {sysadmin}
+!define admPassword {1}
+!define admClientName {qaautoadminportal}
+
+
+
+!4 General Admin Portal Site Info
+!4 Admin Portal Info
+#!define adminRequestUri {https://qaautoadminportal.dayforce.com/mydayforce/}
+
+
+
+
+
+
+!contents

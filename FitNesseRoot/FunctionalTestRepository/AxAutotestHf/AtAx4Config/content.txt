@@ -1,0 +1,4 @@
+!define ClientName {atpr1${version}ax4}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

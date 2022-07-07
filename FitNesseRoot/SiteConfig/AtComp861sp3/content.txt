@@ -1,0 +1,23 @@
+!define version {x2}
+!define versionNameCode {861}
+
+!define baseRequestUri {https://test30.dayforce.com/MyDayforce/}
+!define baseCandidatePortalUri {https://test30.dayforce.com/CandidatePortal/}
+!define customDataServiceUri {https://test30.dayforce.com/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://test30.dayforce.com/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://test30.dayforce.com/TestServices/TestService.svc}
+!define coreServiceUri {https://test30.dayforce.com/DataSvc/CoreService.svc}
+
+
+
+!define SiteName {test30_Site}
+!define SiteRequestUri {${baseRequestUri}${SiteName}}
+
+!define bindingTypeName {StandardCustomSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define browser {firefoxwithdownload}
+
+!contents

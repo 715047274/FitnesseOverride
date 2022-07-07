@@ -1,0 +1,20 @@
+
+!define version {644}
+!define customDataServiceUri {https://atwfm.dayforce.com/${version}/DataSvc/CustomData.svc}
+!define baseRequestUri {https://atwfm.dayforce.com/${version}/mydayforce/}
+!define deviceServiceUri {https://atwfm.dayforce.com/${version}/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://atwfm.dayforce.com/${version}/TestServices/TestService.svc}
+!define coreServiceUri {https://atwfm.dayforce.com/${version}/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+!define adminUserName {InternalAdminPortalClockUser}
+!define adminPass {1}
+
+!define bjrServer {ncqabje7}
+!define BasePayrollOutputServicesDirectory {\\${bjrServer}\_bje_imp_exp\atwfm_${version}\PayrollOutputServices\}
+!define baseBjeFolder {\\${bjrServer}\_bje_imp_exp\atwfm_${version}\}
+
+
+!contents

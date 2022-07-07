@@ -1,0 +1,18 @@
+!define version {x1}
+!define sitePrefix {athr}
+
+!define baseRequestUri {https://athr.dayforce.com/${version}/mydayforce/}
+!define baseCandidatePortalUri {https://athr.dayforce.com/${version}/CandidatePortal/}
+!define customDataServiceUri {https://athr.dayforce.com/${version}/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://athr.dayforce.com/${version}/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://athr.dayforce.com/${version}/TestServices/TestService.svc}
+!define coreServiceUri {https://athr.dayforce.com/${version}/DataSvc/CoreService.svc}
+
+!define bindingTypeName {StandardCustomSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define baseBjeFolder {\\ncqabje16\_bje_imp_exp\${sitePrefix}${version}\}
+
+!contents

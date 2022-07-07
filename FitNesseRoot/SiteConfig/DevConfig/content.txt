@@ -1,0 +1,73 @@
+!|import|
+|fitnesse.slim.text|
+|fitnesse.fixtures|
+|DFAcceptanceTest|
+
+!4 General Site Info
+!define loginPage {http://localhost:51000/MyDayforce.aspx}
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!define deviceServiceUri {http://localhost:51294/DeviceService.svc}
+#!define requestUri {http://localhost:51000}
+!define oDataRequestUri {http://localhost:12799}
+!define requestUri {http://localhost:51000/DFLocal}
+#!define OutlookUri {http://localhost:1065/OutlookServices/}
+!define OutlookUri {http://localhost:1065/}
+!define siteType {Development}
+         
+!define restfulApiUri {http://localhost:42033/}
+!define restfulApiRootUri {http://localhost:42033/}
+
+!define baseRequestUri {http://localhost:51000/}
+!define bindingTypeName {StandardHttpBindingWithLongTimeOut}
+!define userName {cadmin}
+#!define userName {admin}
+!define ClientName {DFLocal}
+!define NameSpace {${ClientName}}
+#!define ClientName {qaautoap}
+# this can be removed and obtained from the SiteSettings
+!define SiteName {DFSite}
+!define siteRequestUri {http://localhost:51000/DFSite}
+!define password {1}
+!define testServiceBindingTypeName {BasicHttpBindingWithLongTimeOut}
+
+!4 Admin Portal Info
+!define adminNamespace {DFAdminPortal}
+!define adminRequestUri {http://localhost:51000/${adminNamespace}}
+!define adminUserName {cadmin}
+!define adminPass {1}
+#Not my first choice to put this here, but no clear path to getting it out of the service layer
+!define adminPortalDBConn {provider=sqloledb;server=localhost;database=AdminPortal;uid=wbpoc;pwd=sql@tfs2008}
+
+!4 Admin Service Info
+!define masterAdminWebServiceUri {http://localhost:56798/AdminService.svc}
+!define masterAdminWebServiceUsername {MasterSiteUser}
+!define masterAdminWebServicePassword {1}
+!define masterAdminWebServiceBinding {BasicHttpBindingWithLongTimeOut}
+
+!4 Admin Service Info
+!define adminServiceNewUri {http://localhost:63804/AdminService.svc}
+!define adminServiceNewBinding {BasicHttpBindingWithLongTimeOut}
+
+
+!4 BJE Info
+!define bjeServer {localhost\c$}
+!define BasePayrollOutputServicesDirectory {c:\FTPROOT\DFControl\PayrollOutputServices\}
+!define baseBjeFolder {c:\FTPROOT\DFControl\}
+!define MasterBjeMachineName {localhost}
+
+!4 Dayforce Services Info
+!define dsNotifReceiverServiceUri {!-http://localhost:51121/DFNotificationReceiverService.svc-!}
+!define dsBindingTypeName {BasicHttpBindingWithLongTimeOut}
+!define dayforceServiceUri {http://localhost:56798/DayforceService.svc}
+
+!4 Admin Portal Test Client Site Info
+!define apSharpTopSiteName {qaauto}
+!define apSharpTopClientNs {qaauto9}
+!define apSharpTopClientId {999909}
+#!define apSharpTopClientRequestUri {${baseRequestUri}${apSharpTopClientNs}}
+
+!define browser {firefox}
+
+!contents
+

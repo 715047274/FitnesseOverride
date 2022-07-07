@@ -1,0 +1,9 @@
+!define baseRequestUri {!-http://localhost:51001-!}
+!define BuildFolderLocation {}
+!define DbServer {localhost}
+!define DbServerUserName {wbpoc}
+!define DbServerPassword {sql@tfs2008}
+!define ServerDrivesAvailable {c}
+!define deployerLocation {!-DatabaseDeployer\db_deployer-!}
+!define DbBackups {!-c:\temp\DBBackups-!}
+!contents

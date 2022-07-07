@@ -1,0 +1,6 @@
+!-  ***  Hr105 *** -!
+
+!define ClientName {atrep${release}_300005}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

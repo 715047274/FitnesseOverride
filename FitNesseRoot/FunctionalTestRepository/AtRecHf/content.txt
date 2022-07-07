@@ -1,0 +1,31 @@
+!define version {hf}
+
+!define baseRequestUri {https://atrec.dayforce.com/${version}/mydayforce/}
+!define baseCandidatePortalUri {https://atrec.dayforce.com/${version}/CandidatePortal/}
+!define baseCandidatePortalIframeUri {https://atrec.dayforce.com/${version}/CandidatePortal/SampleClientHost.html}
+!define customDataServiceUri {https://atrec.dayforce.com/${version}/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://atrec.dayforce.com/${version}/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://atrec.dayforce.com/${version}/TestServices/TestService.svc}
+!define coreServiceUri {https://atrec.dayforce.com/${version}/DataSvc/CoreService.svc}
+!define loginUri {https://atrec.dayforce.com/${version}/mydayforce/MyDayforce.aspx}
+!define sovrenServiceUri {https://atrec.dayforce.com/${version}/DataSvc/SovrenService.svc}
+
+!define bindingTypeName {TestIntCustomSslBinding}
+!define testServiceBindingTypeName {TestIntSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define SiteName {atrec${version}_site}
+!define dayforceServiceUri {https://atrec.dayforce.com/${version}/DataSvc/DayforceService.svc}
+!define siteRequestUri {https://atrec.dayforce.com/${version}/mydayforce/MyDayforce.aspx/atrec${version}_site}
+
+!define bjeServer {ncqabje16}
+!define baseBjeFolder {\\${bjeServer}\_bje_imp_exp\atrec${version}\}
+!define appServer {nan4dfc1app13}
+!define baseCandidatePortalFolder {\\${appServer}\Dayforce\atrec\${version}\CandidatePortal\}
+!define candidatePortalFile {${baseCandidatePortalFolder}SampleClientHost.html}
+!define BasePayrollOutputServicesDirectory {\\${bjeServer}\_bje_imp_exp\_${version}rec\PayrollOutputServices\}
+!define BaseSovrenDirectory {\\nan4dfc1app02\Dayforce\qasovrenfiles${version}\}
+!define IndeedJobPostingsXmlDirectory {\\nan4dfc1bje23\Log\atrec${version}\forecasting\Indeed\}
+
+!contents

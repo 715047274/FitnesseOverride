@@ -1,0 +1,4 @@
+!define ClientName {atwfmsch2x1_15}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

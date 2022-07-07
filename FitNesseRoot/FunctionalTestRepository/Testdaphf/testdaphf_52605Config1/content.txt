@@ -1,0 +1,6 @@
+!-  ***  Sunopta *** -!
+
+!define ClientName {testdap${release}_52605}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

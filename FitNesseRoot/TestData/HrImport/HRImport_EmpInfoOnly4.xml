@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EmployeeImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Employee>
+    <XRefCode>XRefCode102Unit</XRefCode>
+    <EmployeeNumber>Emp00102</EmployeeNumber>
+    <Title/>
+    <FirstName>QAFirst102</FirstName>
+    <MiddleName>QAMiddle102</MiddleName>
+    <LastName>QALast102</LastName>
+    <CommonName>QACommon102</CommonName>
+    <Suffix/>
+    <Gender>M</Gender>
+    <SocialSecurityNumber>7894561231</SocialSecurityNumber>
+    <HireDate>2009-01-01</HireDate>
+    <BirthDate>1980-01-01</BirthDate>
+    <StartDate>2009-01-01</StartDate>
+    <HomePhone>HomePhone101</HomePhone>
+    <CellPhone>CellPhone101</CellPhone>
+    <BusinessPhone>BusinessPhone101</BusinessPhone>
+    <RegisteredDisabled>false</RegisteredDisabled>
+    <BadgeNumber>Badge21</BadgeNumber>
+    <Address>Address123</Address>
+    <Address2>Address456</Address2>
+    <City>City123</City>
+    <StateCode>ON</StateCode>
+    <CountryCode>CAN</CountryCode>
+    <PostalCode>PostalCode1</PostalCode>
+    <EmergencyContact>EmergencyContact1</EmergencyContact>
+    <EmergencyPhone>EmergencyPhone1</EmergencyPhone>
+    <EmergencyCellPhone>EmergencyCellPhone1</EmergencyCellPhone>
+    <EmergencyBusinessPhone>EmergencyBusinessPh1</EmergencyBusinessPhone>
+    <EmergencyContactRelationshipXrefCode/>
+    <EmergencyEmail>EmergencyEmail1</EmergencyEmail>
+    <EmergencyContact2>EmergencyContact2</EmergencyContact2>
+    <EmergencyPhone2>EmergencyPhone2</EmergencyPhone2>
+    <EmergencyCellPhone2>EmergencyCellPhone2</EmergencyCellPhone2>
+    <EmergencyBusinessPhone2>EmergencyBusinessPh2</EmergencyBusinessPhone2>
+    <EmergencyContact2RelationshipXrefCode/>
+    <EmergencyEmail2>EmergencyEmail2</EmergencyEmail2>
+    <ClockSupervisor>true</ClockSupervisor
+  </Employee>
+</EmployeeImport>
+
+

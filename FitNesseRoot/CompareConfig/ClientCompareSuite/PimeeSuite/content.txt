@@ -1,0 +1,13 @@
+!define ClientId {13585}
+!define ClientDb {autotest33} 
+!define prodClientName {${prodRelease}${ClientDb}}
+!define prodRequestUri {${prodBaseRequestUri}${prodClientName}}
+!define prodClientNameAndId {${prodClientName}!-_-!${ClientId}}
+!define rtqaClientName {${rtqaRelease}${ClientDb}}
+!define rtqaRequestUri {${rtqaBaseRequestUri}${rtqaClientName}}
+!define rtqaClientNameAndId {${rtqaClientName}!-_-!${ClientId}}
+#!define CompareFilesLocation {${rtqaWorkspace}!-\Test\DFAcceptanceTest\FitNesse\CompareTool\CompareFiles-!}
+!define prodCompareFilesLocation {${rtqaWorkspace}!-\Test\DFAcceptanceTest\FitNesse\CompareTool\CompareFiles\-!${prodRelease}${ClientDb}}
+!define rtqaCompareFilesLocation {${rtqaWorkspace}!-\Test\DFAcceptanceTest\FitNesse\CompareTool\CompareFiles\-!${rtqaRelease}${ClientDb}}
+
+!contents -R2 -g -p -f -h

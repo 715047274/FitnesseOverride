@@ -1,0 +1,49 @@
+!*> Global Definition
+
+!define PATH_TO_SLIM {${rtqaPathToSlim}}
+!define PATH_TO_FIXTURE (${rtqaPathToFixture})
+
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,${PATH_TO_SLIM}\fitSharp.dll -a ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll.config ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll}
+!define TEST_RUNNER {${PATH_TO_SLIM}\Runner.exe}
+*!
+
+!4 Establish Session
+!|script|Compare Tool|
+|Establish Session Creation Data;|${userName}|${password}|${rtqaRequestUri}|${BindingTypeName}|${rtqaCoreServiceUri}|
+|$context=|Context Id|
+
+!4 Get Paygroups and Payruns
+!|script|
+|$cadminId=|GetAppUserIdByLoginId|${userName}|AndClientId|${ClientId}|
+|$paygroups=|GetPayGroups|
+|$payRunIds=|GetLatestPayRunIdsByPaygroupIds|$paygroups|
+|$committedPaygroups=|GetPaygroupIdsWithCommittedPayrunIds|$payRunIds|
+
+!4 Void Payruns
+!|script|
+|Void Pay Runs;|$payRunIds|$committedPaygroups|
+|Pause|30|
+
+!|script|
+|$runs=|GetVoidStatus|$committedPaygroups|
+|check|All Runs|$payRunIds|Voided|$runs|true|
+
+!4 Recalc and Commit Payruns
+!|script|
+|$elapseTimes=|Recalculate Payroll For Paygroup Ids|$committedPaygroups|And Pay Run Ids|$payRunIds|
+|$commitTimes= |Commit Payroll For Paygroup Ids|$committedPaygroups|And Pay Run Ids|$payRunIds|
+
+!|script|
+|check|AllRunsCommitted|$commitTimes|true|
+
+!4 Copy and rename files to new location
+!|script|
+|$fileInfo=|GetFileTransmissionServiceDetailFileInfo|$payRunIds|
+|$newFiles=|Copy And Rename Files|$fileInfo|To Location|${rtqaCompareFilesLocation}|For Client|${rtqaClientNameAndId}|
+
+#!4 Compare Files
+#!|script|
+#|$compares=|CompareTwoMostRecentFilesInDirectory|$newFiles|
+#|check|AllFilesMatch|$compares|true|
+
+!contents -R2 -g -p -f -h

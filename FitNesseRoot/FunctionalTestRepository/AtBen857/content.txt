@@ -1,0 +1,20 @@
+!define version {857}
+
+!define baseRequestUri {https://atben.dayforce.com/${version}/mydayforce/}
+!define baseCandidatePortalUri {https://atben.dayforce.com/${version}/CandidatePortal/}
+!define customDataServiceUri {https://atben.dayforce.com/${version}/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://atben.dayforce.com/${version}/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://atben.dayforce.com/${version}/TestServices/TestService.svc}
+!define coreServiceUri {https://atben.dayforce.com/${version}/DataSvc/CoreService.svc}
+
+!define bindingTypeName {StandardSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define baseBjeFolder {\\ncqabje09\_bje_imp_exp\at${version}hr\}
+!define exportDir {\\ncqabje16\_bje_imp_exp\atben${version}\PayrollOutputServices\${ClientName}\archive\}
+!define destDir {\\ncqabje16\_bje_imp_exp\atben${version}\PayrollOutputServices\${ClientName}\archive\LastExportFile\COBRAInitialNoticeExport\}
+!define goldDir {\\dffs2\Ydrive\Quality Assurance\Benefits\AutomationFiles\atben${version}\PayrollOutputServices\${ClientName}\archive\GoldFile\COBRAInitialNoticeGoldFile\}
+
+!contents

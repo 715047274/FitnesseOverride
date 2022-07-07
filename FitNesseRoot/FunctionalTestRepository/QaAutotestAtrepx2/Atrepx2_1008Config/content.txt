@@ -1,0 +1,6 @@
+!-  ***  Aero *** -!
+
+!define ClientName {atrep${release}_1008}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

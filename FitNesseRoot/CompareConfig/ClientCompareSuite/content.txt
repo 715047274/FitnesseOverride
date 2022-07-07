@@ -1,0 +1,69 @@
+!define DbBackups {!-\\torsvqa02\DBBackups\QAautotest-!}
+!define deployerLocation {!-DatabaseDeployer\db_deployer-!}
+
+!define TestServiceBindingTypeName {StandardSslBinding}
+!define BindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define BuildFolderLocation {}
+#!define ServerDrivesAvailable {d}
+
+!*> Prod Definition
+
+!define prodBranch {130611_539}
+!define prodAutoTest {539autotest}
+!define prodRelease {539}
+
+!4 for the DB restore tool
+!define prodControlDbName {539control_at}
+!define prodDbServer {Torsvqa02}
+!define prodDbServerUserName {wbpoc}
+!define prodDbServerPassword {sql@tfs2008}
+!define prodWorkspace {!-E:\Dayforce\-!${prodBranch}!-\SharpTop-!}
+!define ProductDbString {}
+
+!define prodPathToSlim {!-E:\Dayforce\-!${prodBranch}!-\SharpTop\Test\DFAcceptanceTest\FitNesse\fitsharp-!}
+!define prodPathToFixture {!-E:\Dayforce\-!${prodBranch}!-\SharpTop\Test\DFAcceptanceTest\DFAcceptanceTest\DFAcceptanceTest\bin\Debug-!}
+
+!define prodTestServiceUri {!-https://qa.dayforce.com/-!${prodAutoTest}!-/DataSvc/TestService.svc-!}
+!define prodCoreServiceUri {!-https://qa.dayforce.com/-!${prodAutoTest}!-/DataSvc/CoreService.svc-!}
+!define prodBaseRequestUri {!-https://qa.dayforce.com/-!${prodAutoTest}!-/mydayforce/-!}
+#!define prodTestServiceBindingTypeName {StandardSslBinding}
+#!define prodBindingTypeName {StandardSslBinding}
+
+*!
+!*> RTQA Definition
+
+!define rtqaBranch {540}
+!define rtqaAutoTest {540autotest}
+!define rtqaRelease {540}
+
+!4 for the DB restore tool
+!define rtqaControlDbName {540control_at}
+!define rtqaDbServer {Torsvqa02}
+!define rtqaDbServerUserName {wbpoc}
+!define rtqaDbServerPassword {sql@tfs2008}
+!define rtqaWorkspace {!-E:\Dayforce\-!${rtqaBranch}!-\SharpTop-!}
+!define ProductDbString {}
+
+!define rtqaPathToSlim {!-E:\Dayforce\-!${rtqaBranch}!-\SharpTop\Test\DFAcceptanceTest\FitNesse\fitsharp-!}
+!define rtqaPathToFixture {!-E:\Dayforce\-!${rtqaBranch}!-\SharpTop\Test\DFAcceptanceTest\DFAcceptanceTest\DFAcceptanceTest\bin\Debug-!}
+
+!define rtqaTestServiceUri {!-https://qa.dayforce.com/-!${rtqaAutoTest}!-/DataSvc/TestService.svc-!}
+!define rtqaCoreServiceUri {!-https://qa.dayforce.com/-!${rtqaAutoTest}!-/DataSvc/CoreService.svc-!}
+!define rtqaBaseRequestUri {!-https://qa.dayforce.com/-!${rtqaAutoTest}!-/mydayforce/-!}
+#!define rtqaTestServiceBindingTypeName {StandardSslBinding}
+#!define rtqaBindingTypeName {StandardSslBinding}
+
+*!
+!*> Default Fixture Definition
+
+!define PATH_TO_SLIM {${rtqaPathToSlim}}
+!define PATH_TO_FIXTURE (${rtqaPathToFixture})
+
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,${PATH_TO_SLIM}\fitSharp.dll -a ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll.config ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll}
+!define TEST_RUNNER {${PATH_TO_SLIM}\Runner.exe}
+*!
+
+!contents -R2 -g -p -f -h

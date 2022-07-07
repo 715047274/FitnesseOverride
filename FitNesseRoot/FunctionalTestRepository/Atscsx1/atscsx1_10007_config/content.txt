@@ -1,0 +1,7 @@
+!define ClientName {atscs${version}_10007}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define ClientId {10007}
+!define CultureId {1033}
+
+
+!contents

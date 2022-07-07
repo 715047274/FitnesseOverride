@@ -1,0 +1,24 @@
+2022-07-05 11:01:53.7082 INFO ************************* 2022-07-05T11_01_52.301**************************
+2022-07-05 11:01:53.7532 INFO NavigateTo: http://localhost:51000/MyDayforce.aspx
+2022-07-05 11:02:19.5512 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 30
+2022-07-05 11:02:19.5512 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-07-05 11:02:26.1778 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 30
+2022-07-05 11:02:26.1778 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-07-05 11:02:27.2403 INFO WaitUntilElementRemoved, Element Doesn't Exist: Timed out after 1 seconds
+2022-07-05 11:02:30.6080 INFO WaitUntilElementRemoved Start: By.XPath: //*[contains(@class,'loadingAnimation') and not(ancestor-or-self::*[contains(@class,'idden')])] : 60
+2022-07-05 11:02:30.6080 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-07-05 11:02:39.1066 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 60
+2022-07-05 11:02:39.1066 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-07-05 11:02:40.1671 INFO WaitUntilElementRemoved, Element Doesn't Exist: Timed out after 1 seconds
+2022-07-05 11:02:44.6965 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 60
+2022-07-05 11:02:44.6965 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-07-05 11:02:45.7607 INFO WaitUntilElementRemoved, Element Doesn't Exist: Timed out after 1 seconds
+2022-07-05 11:02:46.7235 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 60
+2022-07-05 11:02:46.7235 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-07-05 11:02:47.8098 INFO WaitUntilElementRemoved, Element Doesn't Exist: Timed out after 1 seconds
+2022-07-05 11:02:48.7679 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 60
+2022-07-05 11:02:48.7679 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-07-05 11:02:49.8197 INFO WaitUntilElementRemoved, Element Doesn't Exist: Timed out after 1 seconds
+2022-07-05 11:02:53.1504 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 60
+2022-07-05 11:02:53.1504 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-07-05 11:02:54.2506 INFO WaitUntilElementRemoved, Element Doesn't Exist: Timed out after 1 seconds

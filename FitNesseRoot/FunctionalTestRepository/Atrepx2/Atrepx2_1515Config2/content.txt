@@ -1,0 +1,6 @@
+!-  ***  FOODTOWN *** -!
+
+!define ClientName {atrep${release}_1515}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

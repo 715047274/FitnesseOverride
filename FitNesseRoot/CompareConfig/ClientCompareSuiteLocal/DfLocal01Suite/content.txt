@@ -1,0 +1,13 @@
+!define ClientId {10000}
+!define ClientDb {DFLocal01} 
+!define prodClientName {${ClientDb}}
+!define prodRequestUri {${prodBaseRequestUri}${prodClientName}}
+!define prodClientNameAndId {${prodClientName}!-_-!${ClientId}}
+!define rtqaClientName {${ClientDb}}
+!define rtqaRequestUri {${rtqaBaseRequestUri}${rtqaClientName}}
+!define rtqaClientNameAndId {${rtqaClientName}!-_-!${ClientId}}
+#!define CompareFilesLocation {${rtqaWorkspace}!-\Test\DFAcceptanceTest\FitNesse\CompareTool\CompareFiles-!}
+!define prodCompareFilesLocation {${rtqaWorkspace}!-\Test\DFAcceptanceTest\FitNesse\CompareTool\CompareFiles\-!${ClientDb}}
+!define rtqaCompareFilesLocation {${rtqaWorkspace}!-\Test\DFAcceptanceTest\FitNesse\CompareTool\CompareFiles\-!${ClientDb}}
+
+!contents -R2 -g -p -f -h

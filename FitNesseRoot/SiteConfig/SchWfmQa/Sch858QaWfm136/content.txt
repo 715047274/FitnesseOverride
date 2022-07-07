@@ -1,0 +1,7 @@
+!define userName {cadmin}
+#!define userName {admin}
+!define ClientName {858qawfm136}
+!define NameSpace {${ClientName}}
+!define requestUri {${baseUrl_}${version}/MyDayforce/${NameSpace}}
+
+!contents

@@ -1,0 +1,4 @@
+!define ClientName {${version}atwfmaus7}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

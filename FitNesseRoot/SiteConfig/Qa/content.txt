@@ -1,0 +1,6 @@
+!define bindingTypeName {StandardCustomSslBinding}
+!define adminUserName {admin}
+!define adminPass {1}
+
+
+!contents

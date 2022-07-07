@@ -1,0 +1,16 @@
+!define ClientName {atarchqaautohf5}
+!define ClientId {999905}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define OutlookUri {${OutlookServiceUri}}
+!define siteRequestUri {${baseRequestUri}${SiteName}}
+!define PayrollOutputServicesDirectory {${BasePayrollOutputServicesDirectory}${ClientName}\archive}
+!define ArcBjeLoc {${baseArcBjeLoc}${ClientName}\Export\}
+!define TempBjeLoc {${baseTempBjeLoc}${ClientName}\Export\Payroll Export\temp}
+!define BjeImportLoc {${baseBjeImportLoc}${ClientName}\Import\HRImport}
+!define EmployeeManagerBjeImportLoc {${baseBjeImportLoc}${ClientName}\Import\EmployeeManagerImport}
+
+!4 Parameters for Config Service testing
+!define NameSpace {atarchqaautohf5}
+
+
+!contents

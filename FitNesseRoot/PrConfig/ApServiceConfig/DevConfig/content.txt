@@ -1,0 +1,27 @@
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!define deviceServiceUri {http://localhost:51294/DeviceService.svc}
+!define requestUri {http://localhost:51000}
+
+!define baseRequestUri {${requestUri}}
+!define bindingTypeName {StandardHttpBindingWithLongTimeOut}
+!define userName {cadmin}
+!define ClientName {DefaultClient}
+!define password {Local123}
+!define ClientId {10000} 
+!define testServiceBindingTypeName {BasicHttpBindingWithLongTimeOut}
+!define adminRequestUri {http://localhost:51000}
+
+!4 Parameters for Config Service testing
+!define Namespace {DFLocal746}
+!define DfAdminUsername {admin}
+!define DfAdminPassword {Local123}
+!define bjeHostMachineName {canws11}
+!define bjeHostMachineService {MyBJE}
+
+!define bjeServer {localhost\c$}
+!define BasePayrollOutputServicesDirectory {c:\FTPROOT\DFControl\PayrollOutputServices\}
+!define baseBjeFolder {c:\FTPROOT\DFControl\}
+
+
+!contents

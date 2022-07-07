@@ -1,0 +1,40 @@
+!define site        {at}
+!define release     {856}
+!define team        {plat}
+!define clientone   {plat1}
+!define clienttwo   {plat2}
+!define clientthree {plat3}
+!define clientfour  {plat4}
+!define clientfive  {plat5}
+!define clientsix   {plat6}
+
+Service Endpoints
+!define baseRequestUrl {https://at.dayforce.com}
+!define customDataServiceUri {${baseRequestUrl}/${release}${team}/DataSvc/CustomData.svc}
+!define deviceServiceUri {${baseRequestUrl}/${release}${team}/DeviceServices/DeviceService.svc}
+!define testServiceUri {${baseRequestUrl}/${release}${team}/TestServices/TestService.svc}
+!define coreServiceUri {${baseRequestUrl}/${release}${team}/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+
+Text Context
+!define baseRequestUri  {${baseRequestUrl}/${release}${team}/mydayforce/}
+!define userName {cadmin}
+!define password {1}
+
+Admin Portal Configuration
+!define adminRequestUri {https://qadfadmin.dayforce.com/mydayforce}
+!define adminNamespace {qadfadmin_new}
+!define adminUserName {admin}
+!define adminPass {admin123}
+
+
+BJE configuration
+!define bjrServer {ncqabje16}
+!define basePayrollOutputServicesDirectory {\\${bjrServer}\_bje_imp_exp\_${site}${release}\PayrollOutputServices\}
+!define baseBjeFolder {\\${bjrServer}\_bje_imp_exp\bje_imp_exp\autotest_${site}${release}plat\}
+!define baseArcBjeLoc {\\${bjrServer}\_bje_imp_exp\_${site}${release}plat\}
+!define baseTempBjeLoc {\\${bjrServer}\_bje_imp_exp\_${site}${release}plat\}
+!define baseBjeImportLoc {\\${bjrServer}\_bje_imp_exp\_${site}${release}plat\}
+
+!contents

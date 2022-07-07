@@ -1,0 +1,6 @@
+!-  ***  MediFit  *** -!
+
+!define ClientName {atrep${release}_8395}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

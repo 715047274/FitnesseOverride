@@ -1,0 +1,23 @@
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!define deviceServiceUri {http://localhost:51294/DeviceService.svc}
+!define requestUri {http://localhost:51000}
+
+!define baseRequestUri {${requestUri}}
+!define bindingTypeName {StandardHttpBindingWithLongTimeOut}
+!define userName {cadmin}
+!define ClientName {DFLocal854}
+!define password {1}
+!define ClientId {10000} 
+!define testServiceBindingTypeName {BasicHttpBindingWithLongTimeOut}
+!define adminRequestUri {http://localhost:51000}
+!define adminNamespace {AdminPortal}
+!define adminUserName {admin}
+!define adminPass {1}
+
+#!define bjeServer {localhost\c$}
+#!define BasePayrollOutputServicesDirectory {c:\FTPROOT\DFControl\PayrollOutputServices\}
+#!define baseBjeFolder {c:\FTPROOT\DFControl\}
+
+
+!contents

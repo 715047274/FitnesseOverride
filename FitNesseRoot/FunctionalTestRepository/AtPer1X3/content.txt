@@ -1,0 +1,22 @@
+!define version {x3}
+!define siteClientNamespace {atper1x3_site}
+
+!define baseRequestUri {https://atper1.dayforce.com/${version}/mydayforce/}
+!define baseCandidatePortalUri {https://atper1.dayforce.com/${version}/CandidatePortal/}
+!define customDataServiceUri {https://atper1.dayforce.com/${version}/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://atper1.dayforce.com/${version}/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://atper1.dayforce.com/${version}/TestServices/TestService.svc}
+!define coreServiceUri {https://atper1.dayforce.com/${version}/DataSvc/CoreService.svc}
+!define loginUri {https://atper1.dayforce.com/${version}/mydayforce/MyDayforce.aspx}
+!define sovrenServiceUri {https://atper1.dayforce.com/${version}/DataSvc/SovrenService.svc}
+
+!define bindingTypeName {StandardCustomSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define bjeServer {ncqabje16}
+!define baseBjeFolder {\\${bjeServer}\_bje_imp_exp\atper1${version}\}
+!define appServer {nan4dfc1app34}
+
+!contents

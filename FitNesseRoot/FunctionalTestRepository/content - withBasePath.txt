@@ -1,0 +1,23 @@
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,fitSharp\fitSharp.dll %p}
+!define TEST_RUNNER {fitSharp\Runner.exe}
+!define TEST_SYSTEM {slim}
+
+!define basep {!-C:\Dayforce\git\bin\Test\DFAcceptanceTest-!}
+
+#this will search all subdirectories of the folder for these .dlls
+!path ${basep}\DFAcceptanceTest.dll
+!path ${basep}\WFMSeleniumTest.dll
+!path ${basep}\DFSeleniumTest.dll
+!path ${basep}\RecruitingSeleniumTest.dll 
+!path ${basep}\DFControllersTest.dll
+
+!path ${basep}\HRSeleniumTest.dll
+!path ${basep}\PlatformSeleniumTest.dll
+!path ${basep}\ArchitectureSeleniumTest.dll
+!path ${basep}\DFClientServerTest.dll
+!path ${basep}\BenefitsSeleniumTest.dll
+!path ${basep}\AppiumSampleTests.dll
+!path ${basep}\WFMAppiumTest.dll
+!path ${basep}\CompSeleniumTest.dll
+!path ${basep}\PerformanceSeleniumTest.dll
+!contents

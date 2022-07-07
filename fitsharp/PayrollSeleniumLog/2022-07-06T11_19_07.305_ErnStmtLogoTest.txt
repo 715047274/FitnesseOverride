@@ -1,0 +1,121 @@
+2022-07-06 11:20:25.2746 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Check Box: START
+2022-07-06 11:20:25.2746 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Check Box: attempt #1
+2022-07-06 11:20:26.8012 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Check Box: END
+2022-07-06 11:20:26.8012 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Load: START
+2022-07-06 11:20:26.8012 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Load: attempt #1
+2022-07-06 11:20:28.4052 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Load: END
+2022-07-06 11:20:44.5044 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: START
+2022-07-06 11:20:44.5044 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: attemp #1
+2022-07-06 11:20:44.5074 DEBUG HandleWidgetElementIdentifiedBy - PayRunManagement::Tab::Quick Entry::False::30: START
+2022-07-06 11:20:44.5074 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: START
+2022-07-06 11:20:44.5534 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: Location 1
+2022-07-06 11:20:44.5594 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: Location 2
+2022-07-06 11:20:44.6054 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: END
+2022-07-06 11:20:44.6364 DEBUG HandleWidgetElementIdentifiedBy - PayRunManagement::Tab::Quick Entry::False::30: END
+2022-07-06 11:20:44.7124 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: base.start
+2022-07-06 11:20:45.9814 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: base.end
+2022-07-06 11:20:45.9994 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: END
+2022-07-06 11:20:59.1966 DEBUG WidgetGridClickCellByRowNumberColumnName - PrmQeNew::Employee::1::Employee Name: START
+2022-07-06 11:20:59.1966 DEBUG WidgetGridClickCellByRowNumberColumnName - PrmQeNew::Employee::1::Employee Name: attempt #1
+2022-07-06 11:21:03.2437 DEBUG WidgetGridClickCellByRowNumberColumnName - PrmQeNew::Employee::1::Employee Name: END
+2022-07-06 11:21:03.2437 DEBUG WidgetClickOnElement - SlideOut::Slide: START
+2022-07-06 11:21:03.2437 DEBUG WidgetClickOnElement - SlideOut::Slide: attemp #1
+2022-07-06 11:21:03.2437 DEBUG HandleWidgetElement - SlideOut::Slide::False::30: START
+2022-07-06 11:21:03.2597 DEBUG DriverGetElement - Slide::False::30: Attempt #2
+2022-07-06 11:21:03.5507 DEBUG DriverGetElement - Slide::False::30: Location 1
+2022-07-06 11:21:03.5797 DEBUG DriverGetElement - Slide::False::30: Location 2
+2022-07-06 11:21:03.7197 DEBUG DriverGetElement - Slide::False::30: END
+2022-07-06 11:21:03.8157 DEBUG HandleWidgetElement - SlideOut::Slide::False::30: END
+2022-07-06 11:21:03.8827 DEBUG WidgetClickOnElement - SlideOut::Slide: base.start
+2022-07-06 11:21:05.4907 DEBUG WidgetClickOnElement - SlideOut::Slide: base.end
+2022-07-06 11:21:05.4917 DEBUG WidgetClickOnElement - SlideOut::Slide: END
+2022-07-06 11:21:21.7587 DEBUG WidgetElementIsDisplayingByIdentifiers - SlideOut::ESImage::NOTANIDENTIFIER: START
+2022-07-06 11:21:21.7587 DEBUG HandleWidgetElementIdentifiedBy - SlideOut::ESImage::NOTANIDENTIFIER::False::5: START
+2022-07-06 11:21:21.7587 DEBUG DriverGetElementIdentifiedBy - ESImage::NOTANIDENTIFIER::False::5: START
+2022-07-06 11:21:21.7777 DEBUG DriverGetElementIdentifiedBy - ESImage::NOTANIDENTIFIER::False::5: Location 1
+2022-07-06 11:21:21.7777 DEBUG DriverGetElementIdentifiedBy - ESImage::NOTANIDENTIFIER::False::5: Location 2
+2022-07-06 11:21:21.8017 DEBUG DriverGetElementIdentifiedBy - ESImage::NOTANIDENTIFIER::False::5: END
+2022-07-06 11:21:21.8147 DEBUG HandleWidgetElementIdentifiedBy - SlideOut::ESImage::NOTANIDENTIFIER::False::5: END
+2022-07-06 11:21:21.8227 DEBUG WidgetElementIsDisplayingByIdentifiers - SlideOut::ESImage::NOTANIDENTIFIER: e.Displayed: True
+2022-07-06 11:21:21.8227 DEBUG WidgetElementIsDisplayingByIdentifiers - SlideOut::ESImage::NOTANIDENTIFIER: END
+2022-07-06 11:21:21.8607 DEBUG WidgetClickOnElement - FeatureToolbar::People: START
+2022-07-06 11:21:21.8607 DEBUG WidgetClickOnElement - FeatureToolbar::People: attemp #1
+2022-07-06 11:21:21.8607 DEBUG HandleWidgetElement - FeatureToolbar::People::False::30: START
+2022-07-06 11:21:21.8607 DEBUG DriverGetElement - People::False::30: Attempt #2
+2022-07-06 11:21:21.8837 DEBUG DriverGetElement - People::False::30: Location 1
+2022-07-06 11:21:21.8837 DEBUG DriverGetElement - People::False::30: Location 2
+2022-07-06 11:21:21.9027 DEBUG DriverGetElement - People::False::30: END
+2022-07-06 11:21:21.9157 DEBUG HandleWidgetElement - FeatureToolbar::People::False::30: END
+2022-07-06 11:21:21.9362 DEBUG WidgetClickOnElement - FeatureToolbar::People: base.start
+2022-07-06 11:21:23.0272 DEBUG WidgetClickOnElement - FeatureToolbar::People: base.end
+2022-07-06 11:21:23.0272 DEBUG WidgetClickOnElement - FeatureToolbar::People: END
+2022-07-06 11:21:28.7073 DEBUG Waited LoadingSpinner in ms: 5676
+2022-07-06 11:21:28.7073 DEBUG ViewEmployee Waited LoadingSpinner in ms: 5678
+2022-07-06 11:21:28.7073 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: START
+2022-07-06 11:21:28.7073 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: attemp #1
+2022-07-06 11:21:28.7073 DEBUG HandleWidgetElementIdentifiedBy - FilterPane::FilterTextBox::Name::False::30: START
+2022-07-06 11:21:28.7073 DEBUG DriverGetElementIdentifiedBy - FilterTextBox::Name::False::30: START
+2022-07-06 11:21:28.7343 DEBUG DriverGetElementIdentifiedBy - FilterTextBox::Name::False::30: Location 1
+2022-07-06 11:21:28.7343 DEBUG DriverGetElementIdentifiedBy - FilterTextBox::Name::False::30: Location 2
+2022-07-06 11:21:28.7604 DEBUG DriverGetElementIdentifiedBy - FilterTextBox::Name::False::30: END
+2022-07-06 11:21:28.7743 DEBUG HandleWidgetElementIdentifiedBy - FilterPane::FilterTextBox::Name::False::30: END
+2022-07-06 11:21:28.7933 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: base.start
+2022-07-06 11:21:29.8944 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: base.end
+2022-07-06 11:21:29.8944 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: END
+2022-07-06 11:21:31.3825 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: START
+2022-07-06 11:21:31.3825 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: GetVisibleElement start
+2022-07-06 11:21:31.4325 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: GetVisibleElement end
+2022-07-06 11:21:31.4525 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: base.start
+2022-07-06 11:21:32.5617 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: base.end
+2022-07-06 11:21:32.5617 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: END
+2022-07-06 11:21:34.6010 DEBUG WidgetGridClickCellByRowNumberColumnName - People::People::1::Check Box: START
+2022-07-06 11:21:34.6020 DEBUG WidgetGridClickCellByRowNumberColumnName - People::People::1::Check Box: attempt #1
+2022-07-06 11:21:35.7510 DEBUG WidgetGridClickCellByRowNumberColumnName - People::People::1::Check Box: END
+2022-07-06 11:21:35.7510 DEBUG WidgetClickOnButton - People::View Profiles: START
+2022-07-06 11:21:35.7510 DEBUG WidgetClickOnButton - People::View Profiles: GetVisibleElement start
+2022-07-06 11:21:35.7960 DEBUG WidgetClickOnButton - People::View Profiles: GetVisibleElement end
+2022-07-06 11:21:35.8210 DEBUG WidgetClickOnButton - People::View Profiles: base.start
+2022-07-06 11:21:37.0226 DEBUG WidgetClickOnButton - People::View Profiles: base.end
+2022-07-06 11:21:37.0236 DEBUG WidgetClickOnButton - People::View Profiles: END
+2022-07-06 11:21:48.1013 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuExpansionItem::Statements: START
+2022-07-06 11:21:48.1013 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuExpansionItem::Statements: attemp #1
+2022-07-06 11:21:48.1013 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfileNew::LeftMenuExpansionItem::Statements::False::30: START
+2022-07-06 11:21:48.1013 DEBUG DriverGetElementIdentifiedBy - LeftMenuExpansionItem::Statements::False::30: START
+2022-07-06 11:21:48.1363 DEBUG DriverGetElementIdentifiedBy - LeftMenuExpansionItem::Statements::False::30: Location 1
+2022-07-06 11:21:48.1363 DEBUG DriverGetElementIdentifiedBy - LeftMenuExpansionItem::Statements::False::30: Location 2
+2022-07-06 11:21:48.1663 DEBUG DriverGetElementIdentifiedBy - LeftMenuExpansionItem::Statements::False::30: END
+2022-07-06 11:21:48.1663 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfileNew::LeftMenuExpansionItem::Statements::False::30: END
+2022-07-06 11:21:48.1963 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuExpansionItem::Statements: base.start
+2022-07-06 11:21:49.3454 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuExpansionItem::Statements: base.end
+2022-07-06 11:21:49.3454 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuExpansionItem::Statements: END
+2022-07-06 11:21:49.3454 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuItem::Earnings Statements: START
+2022-07-06 11:21:49.3454 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuItem::Earnings Statements: attemp #1
+2022-07-06 11:21:49.3454 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfileNew::LeftMenuItem::Earnings Statements::False::30: START
+2022-07-06 11:21:49.3454 DEBUG DriverGetElementIdentifiedBy - LeftMenuItem::Earnings Statements::False::30: START
+2022-07-06 11:21:49.3713 DEBUG DriverGetElementIdentifiedBy - LeftMenuItem::Earnings Statements::False::30: Location 1
+2022-07-06 11:21:49.3713 DEBUG DriverGetElementIdentifiedBy - LeftMenuItem::Earnings Statements::False::30: Location 2
+2022-07-06 11:21:49.3963 DEBUG DriverGetElementIdentifiedBy - LeftMenuItem::Earnings Statements::False::30: END
+2022-07-06 11:21:49.4114 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfileNew::LeftMenuItem::Earnings Statements::False::30: END
+2022-07-06 11:21:49.4324 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuItem::Earnings Statements: base.start
+2022-07-06 11:21:50.5473 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuItem::Earnings Statements: base.end
+2022-07-06 11:21:50.5473 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfileNew::LeftMenuItem::Earnings Statements: END
+2022-07-06 11:21:52.5529 DEBUG WidgetClickOnElementIdentifiedBy - EPEarningStatements::EarningsStatementsLink::1: START
+2022-07-06 11:21:52.5529 DEBUG WidgetClickOnElementIdentifiedBy - EPEarningStatements::EarningsStatementsLink::1: attemp #1
+2022-07-06 11:21:52.5549 DEBUG HandleWidgetElementIdentifiedBy - EPEarningStatements::EarningsStatementsLink::1::False::30: START
+2022-07-06 11:21:52.5549 DEBUG DriverGetElementIdentifiedBy - EarningsStatementsLink::1::False::30: START
+2022-07-06 11:21:52.5879 DEBUG DriverGetElementIdentifiedBy - EarningsStatementsLink::1::False::30: Location 1
+2022-07-06 11:21:52.5879 DEBUG DriverGetElementIdentifiedBy - EarningsStatementsLink::1::False::30: Location 2
+2022-07-06 11:21:52.6159 DEBUG DriverGetElementIdentifiedBy - EarningsStatementsLink::1::False::30: END
+2022-07-06 11:21:52.6309 DEBUG HandleWidgetElementIdentifiedBy - EPEarningStatements::EarningsStatementsLink::1::False::30: END
+2022-07-06 11:21:52.6519 DEBUG WidgetClickOnElementIdentifiedBy - EPEarningStatements::EarningsStatementsLink::1: base.start
+2022-07-06 11:21:53.9023 DEBUG WidgetClickOnElementIdentifiedBy - EPEarningStatements::EarningsStatementsLink::1: base.end
+2022-07-06 11:21:53.9023 DEBUG WidgetClickOnElementIdentifiedBy - EPEarningStatements::EarningsStatementsLink::1: END
+2022-07-06 11:22:02.0901 DEBUG WidgetElementIsDisplayingByIdentifiers - EPEarningStatements::ESImage::NOTANIDENTIFIER: START
+2022-07-06 11:22:02.0901 DEBUG HandleWidgetElementIdentifiedBy - EPEarningStatements::ESImage::NOTANIDENTIFIER::False::5: START
+2022-07-06 11:22:02.0901 DEBUG DriverGetElementIdentifiedBy - ESImage::NOTANIDENTIFIER::False::5: START
+2022-07-06 11:22:02.1171 DEBUG DriverGetElementIdentifiedBy - ESImage::NOTANIDENTIFIER::False::5: Location 1
+2022-07-06 11:22:02.1171 DEBUG DriverGetElementIdentifiedBy - ESImage::NOTANIDENTIFIER::False::5: Location 2
+2022-07-06 11:22:02.1411 DEBUG DriverGetElementIdentifiedBy - ESImage::NOTANIDENTIFIER::False::5: END
+2022-07-06 11:22:02.1641 DEBUG HandleWidgetElementIdentifiedBy - EPEarningStatements::ESImage::NOTANIDENTIFIER::False::5: END
+2022-07-06 11:22:02.1641 DEBUG WidgetElementIsDisplayingByIdentifiers - EPEarningStatements::ESImage::NOTANIDENTIFIER: e.Displayed: True
+2022-07-06 11:22:02.1641 DEBUG WidgetElementIsDisplayingByIdentifiers - EPEarningStatements::ESImage::NOTANIDENTIFIER: END

@@ -1,0 +1,14 @@
+<Export>
+	<Record>
+		<EmployeeNumber>11111</EmployeeNumber>
+		<OrgName></OrgName>
+		<PayClass>PT</PayClass>
+		<PayType>Hourly(Non-Exempt)</PayType>
+		<PayCategoryName></PayCategoryName>
+		<PayCodeName>WORK</PayCodeName>
+		<TotalHours>4.00</TotalHours>
+		<Rate>25.00</Rate>
+		<IsPremium>.0</IsPremium>
+		<IsRetro>1.0</IsRetro>
+	</Record>
+</Export>

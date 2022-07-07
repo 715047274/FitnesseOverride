@@ -1,0 +1,6 @@
+!-  ***  Gannett *** -!
+
+!define ClientName {atdap${release}_18865}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

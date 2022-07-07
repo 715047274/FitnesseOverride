@@ -1,0 +1,6 @@
+!-  ***  Aeropostale *** -!
+
+!define ClientName {at${release}rep2}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

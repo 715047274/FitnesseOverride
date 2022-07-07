@@ -1,0 +1,17 @@
+!***> Preparing Prod Environment
+
+!| script | Compare Tool |
+| Establish Compare Environment And Client; | ${DbBackups} | ${prodDbServer} | ${prodClientName} | ${prodWorkspace} | ${ClientId} |
+| Get Upgrade Scripts From Build Shelve | ${BuildFolderLocation} | And Store In Workspace | ${prodWorkspace} |
+| $message= | Prepare Environment For Compare |
+
+*!
+!***> Preparing RTQA Environment
+
+!| script | Compare Tool |
+| Establish Compare Environment And Client; | ${DbBackups} | ${rtqaDbServer} | ${rtqaClientName} | ${rtqaWorkspace} | ${ClientId} |
+| Get Upgrade Scripts From Build Shelve | ${BuildFolderLocation} | And Store In Workspace | ${rtqaWorkspace} |
+| $message= | Prepare Environment For Compare |
+
+*!
+!contents -R2 -g -p -f -h

@@ -1,0 +1,14 @@
+
+!define membershipServiceUri {https://qapayrollcontrol.dayforce.com/Membership/Membership.svc}
+!define dataProcessorServiceUri {https://qapayrollcontrol.dayforce.com/DataProcessor/DataProcessor.svc}
+!define customDataServiceUri {https://qapayrollcontrol.dayforce.com/DataSvc/CustomData.svc}
+!define requestUri {https://qapayrollcontrol.dayforce.com/mydayforce/qapayroll0}
+!define testServiceUri {https://qapayrollcontrol.dayforce.com/TestService/TestService.svc}
+!define coreServiceUri {https://qapayrollcontrol.dayforce.com/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {BasicHttpBinding}
+!define bindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+!define ClientName {qapayroll0}
+
+!contents

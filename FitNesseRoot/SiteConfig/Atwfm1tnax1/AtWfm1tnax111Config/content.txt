@@ -1,0 +1,4 @@
+!define ClientName {${site}${version}_11}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

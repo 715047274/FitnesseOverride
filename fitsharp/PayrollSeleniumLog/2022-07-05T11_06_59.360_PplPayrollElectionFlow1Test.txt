@@ -1,0 +1,44 @@
+2022-07-05 11:07:33.7054 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: START
+2022-07-05 11:07:33.7054 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: GetVisibleElement start
+2022-07-05 11:07:33.7359 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: GetVisibleElement end
+2022-07-05 11:07:33.7609 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: base.start
+2022-07-05 11:07:34.8138 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: base.end
+2022-07-05 11:07:34.8138 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: END
+2022-07-05 11:07:47.2570 DEBUG WidgetClickOnElementIdentifiedBy - EarningsAndDeductions::Tab::Earnings: START
+2022-07-05 11:07:47.2570 DEBUG WidgetClickOnElementIdentifiedBy - EarningsAndDeductions::Tab::Earnings: attemp #1
+2022-07-05 11:07:47.2570 DEBUG HandleWidgetElementIdentifiedBy - EarningsAndDeductions::Tab::Earnings::False::30: START
+2022-07-05 11:07:47.2570 DEBUG DriverGetElementIdentifiedBy - Tab::Earnings::False::30: START
+2022-07-05 11:07:47.2789 DEBUG DriverGetElementIdentifiedBy - Tab::Earnings::False::30: Location 1
+2022-07-05 11:07:47.2809 DEBUG DriverGetElementIdentifiedBy - Tab::Earnings::False::30: Location 2
+2022-07-05 11:07:47.2990 DEBUG DriverGetElementIdentifiedBy - Tab::Earnings::False::30: END
+2022-07-05 11:07:47.2990 DEBUG HandleWidgetElementIdentifiedBy - EarningsAndDeductions::Tab::Earnings::False::30: END
+2022-07-05 11:07:47.3260 DEBUG WidgetClickOnElementIdentifiedBy - EarningsAndDeductions::Tab::Earnings: base.start
+2022-07-05 11:07:48.3852 DEBUG WidgetClickOnElementIdentifiedBy - EarningsAndDeductions::Tab::Earnings: base.end
+2022-07-05 11:07:48.3852 DEBUG WidgetClickOnElementIdentifiedBy - EarningsAndDeductions::Tab::Earnings: END
+2022-07-05 11:07:54.5486 DEBUG WidgetClickOnElement - ResultPanel::SearchBox: START
+2022-07-05 11:07:54.5486 DEBUG WidgetClickOnElement - ResultPanel::SearchBox: attemp #1
+2022-07-05 11:07:54.5486 DEBUG HandleWidgetElement - ResultPanel::SearchBox::False::30: START
+2022-07-05 11:07:54.5486 DEBUG DriverGetElement - SearchBox::False::30: Attempt #2
+2022-07-05 11:07:54.5834 DEBUG DriverGetElement - SearchBox::False::30: Location 1
+2022-07-05 11:07:54.5834 DEBUG DriverGetElement - SearchBox::False::30: Location 2
+2022-07-05 11:07:54.6034 DEBUG DriverGetElement - SearchBox::False::30: END
+2022-07-05 11:07:54.6144 DEBUG HandleWidgetElement - ResultPanel::SearchBox::False::30: END
+2022-07-05 11:07:54.6294 DEBUG WidgetClickOnElement - ResultPanel::SearchBox: base.start
+2022-07-05 11:07:55.7092 DEBUG WidgetClickOnElement - ResultPanel::SearchBox: base.end
+2022-07-05 11:07:55.7092 DEBUG WidgetClickOnElement - ResultPanel::SearchBox: END
+2022-07-05 11:08:02.1928 DEBUG WidgetSelectCheckBoxByIdentifiers - General::CheckBox::Generated: START
+2022-07-05 11:08:02.1928 DEBUG HandleWidgetElementIdentifiedBy - General::CheckBox::Generated::True::30: START
+2022-07-05 11:08:02.1928 DEBUG DriverGetElementIdentifiedBy - CheckBox::Generated::True::30: START
+2022-07-05 11:08:02.2178 DEBUG DriverGetElementIdentifiedBy - CheckBox::Generated::True::30: Location 1
+2022-07-05 11:08:02.2178 DEBUG DriverGetElementIdentifiedBy - CheckBox::Generated::True::30: Location 2
+2022-07-05 11:08:32.2867 DEBUG DriverGetElementIdentifiedBy - CheckBox::Generated::True::30: caught exception OpenQA.Selenium.NoSuchElementException -  -    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 275
+2022-07-05 11:08:32.2867 DEBUG DriverGetElementIdentifiedBy - CheckBox::Generated::True::30: element not found, throw StopTestException
+2022-07-05 11:08:32.2867 DEBUG WidgetSelectCheckBoxByIdentifiers - General::CheckBox::Generated: caught exception DFSeleniumTest.StopTestException -  -    at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 307
+   at PayrollSeleniumTest.PayrollFlowBase.HandleWidgetElementIdentifiedBy(String widget, String elementName, String identifiers, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\FrameworkUtil.cs:line 107
+   at PayrollSeleniumTest.PayrollFlowBase.WidgetSelectCheckBoxByIdentifiers(String widget, String checkBoxName, String identifiers) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Override.cs:line 316
+2022-07-05 11:08:32.2917 DEBUG CaptureScreenShot: location 1
+2022-07-05 11:08:32.6455 DEBUG CaptureScreenShot: location 2

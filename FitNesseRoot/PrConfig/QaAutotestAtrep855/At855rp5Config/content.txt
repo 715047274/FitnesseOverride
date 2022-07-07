@@ -1,0 +1,6 @@
+!-  ***  Michael Kors *** -!
+
+!define ClientName {at${release}rep5}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

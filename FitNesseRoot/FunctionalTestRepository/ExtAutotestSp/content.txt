@@ -1,0 +1,22 @@
+!define release {prsp}
+!define baseRequestUrl {https://qaextat2.dayforce.com}
+!define customDataServiceUri {${baseRequestUrl}/${release}/DataSvc/CustomData.svc}
+!define baseRequestUri {${baseRequestUrl}/${release}/MyDayforce/}
+!define baseRequestLogin {${baseRequestUrl}/root/MyDayforce/MyDayforce.aspx}
+!define deviceServiceUri {${baseRequestUrl}/${release}/DeviceServices/DeviceService.svc}
+!define testServiceUri {${baseRequestUrl}/${release}/TestServices/TestService.svc}
+!define coreServiceUri {${baseRequestUrl}/${release}/DataSvc/CoreService.svc}
+!define mobileWebServiceUri {${baseRequestUrl}/${release}/MobileWebService/JSONService.svc} 
+!define restfulApiUri {${baseRequestUrl}/${release}/api/}
+!define testServiceBindingTypeName {TestIntSslBinding}
+!define bindingTypeName {TestIntCustomSslBinding}
+!define userName {cadmin}
+!define password {int@tprsp}
+
+!define BasePayrollOutputServicesDirectory {\\ncintbje01\_bje_imp_exp\qaextat2${release}\PayrollOutputServices\}
+
+!define baseArcBjeLoc {\\ncintbje01\_bje_imp_exp\qaextat2${release}\}
+!define baseTempBjeLoc {\\ncintbje01\_bje_imp_exp\qaextat2${release}\}
+!define baseBjeImportLoc {\\ncintbje01\_bje_imp_exp\qaextat2${release}\}
+
+!contents

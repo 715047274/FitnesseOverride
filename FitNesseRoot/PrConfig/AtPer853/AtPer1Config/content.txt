@@ -1,0 +1,11 @@
+!define ClientName {at${version}per1}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define candidateUri {${baseCandidatePortalUri}en-US/${ClientName}}
+!define candidateUriIframe {${baseCandidatePortalUri}${ClientName}.html}
+!define candidatePortalIframe {${baseCandidatePortalFolder}${ClientName}.html}
+!define ClientId {10001}
+!define CultureId {1033}
+!define SovrenDirectory {${BaseSovrenDirectory}Resume_at${version}per1-temp\XML}
+
+
+!contents

@@ -1,0 +1,10 @@
+!define ClientName {${version}atrec1}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define candidateUri {${baseCandidatePortalUri}en-US/${ClientName}}
+!define candidateUriIframe {${baseCandidatePortalUri}${ClientName}.html}
+!define candidatePortalIframe {${baseCandidatePortalFolder}${ClientName}.html}
+!define ClientId {9999}
+!define CultureId {1033}
+!define SovrenDirectory {${BaseSovrenDirectory}\Resume_${version}atrec1-temp\XML}
+
+!contents

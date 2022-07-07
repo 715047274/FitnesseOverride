@@ -1,0 +1,12 @@
+2022-06-23 10:00:02.5933 INFO ************************* 2022-06-23T10_00_00.352**************************
+2022-06-23 10:00:02.6453 INFO NavigateTo: http://localhost:51000/MyDayforce.aspx
+2022-06-23 10:00:59.8875 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 30
+2022-06-23 10:00:59.8875 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-06-23 10:01:00.9465 INFO WaitUntilElementRemoved, Element Doesn't Exist: Timed out after 1 seconds
+2022-06-23 10:01:04.9078 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 30
+2022-06-23 10:01:04.9108 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-06-23 10:01:05.9531 INFO WaitUntilElementRemoved, Element Doesn't Exist: Timed out after 1 seconds
+2022-06-23 10:01:12.7984 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 30
+2022-06-23 10:01:12.7984 INFO WaitUntilElementRemoved: WebDriverWait created.
+2022-06-23 10:01:54.5860 INFO WaitUntilElementRemoved Start: By.ClassName[Contains]: LargeLoadingMaskContainer : 60
+2022-06-23 10:01:54.5860 INFO WaitUntilElementRemoved: WebDriverWait created.

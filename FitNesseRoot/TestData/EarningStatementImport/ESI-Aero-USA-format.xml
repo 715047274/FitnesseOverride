@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EarningImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CreatedDate>2011-10-01</CreatedDate>
+  <PayPeriodID>ReferenceNumber1</PayPeriodID>
+  <PSID>PSID</PSID>
+  <Employer>
+    <Name>001 AEROPOSTALE, INC</Name>
+    <PhoneNumber>(212)239-4968</PhoneNumber>
+    <Address1>112 W 34th Street Floor 22</Address1>
+    <Address2>Floor 22</Address2>
+    <PostalCode>10120</PostalCode>
+    <City>New York</City>
+    <State>NY</State>
+    <Country>USA</Country>
+    <PayPeriod>Weekly</PayPeriod>
+    <PayPeriodStart>2011-10-09</PayPeriodStart>
+    <PayPeriodEnd>2011-10-22</PayPeriodEnd>
+    <PayDate>2011-10-23</PayDate>
+    <Employees>
+      <Employee>
+        <EmployeeXrefCode>255748</EmployeeXrefCode>
+        <Department>Executive</Department>
+        <Job>Corporate Executive</Job>
+        <EmployeeNumber>255748</EmployeeNumber>
+        <Name>Amy Larsen</Name>
+        <Address1>24130 Newhall Ranch Road</Address1>
+        <Address2>Apt 4205</Address2>
+        <PostalCode>91355</PostalCode>
+        <City>Santa Clarita</City>
+        <State>CA</State>
+        <Country>USA</Country>
+        <LanguageXrefCode>en-US</LanguageXrefCode>
+        <PayFrequency>Bi-Weekly</PayFrequency>
+        <PayRate>35.33</PayRate>
+        <PeriodStart>2011-10-09</PeriodStart>
+        <PeriodEnd>2011-10-22</PeriodEnd>
+        <PayDate>2011-10-23</PayDate>
+        <CheckType>E</CheckType>
+        <CheckNumber>98460226</CheckNumber>
+        <FederalFilingStatus>Married</FederalFilingStatus>
+        <StateFilingStatus>Married</StateFilingStatus>
+        <FederalExemptions>3</FederalExemptions>
+        <StateExemptions>3</StateExemptions>
+        <LocalExemptions>3</LocalExemptions>
+        <Earnings>
+          <Earning>
+            <EarningCodeName>Regular</EarningCodeName>
+            <Hours>24</Hours>
+            <Rate>17.5</Rate>
+            <Amount>422</Amount>
+            <HoursYTD>1032</HoursYTD>
+            <AmountYTD>18060.00</AmountYTD>
+          </Earning>
+          <Earning>
+            <EarningCodeName>Overtime</EarningCodeName>
+            <Hours>10</Hours>
+            <Rate>26.2500</Rate>
+            <Amount>250.00</Amount>
+            <HoursYTD>98</HoursYTD>
+            <AmountYTD>2500.56</AmountYTD>
+          </Earning>
+          <Earning>
+            <EarningCodeName>Vacation</EarningCodeName>
+            <HoursYTD>48</HoursYTD>
+            <AmountYTD>840</AmountYTD>
+          </Earning>
+          <Earning>
+            <EarningCodeName>Bonus</EarningCodeName>
+            <Amount>500</Amount>
+            <HoursYTD>0</HoursYTD>
+            <AmountYTD>1000</AmountYTD>
+          </Earning>
+        </Earnings>
+        <Deductions>
+          <Deduction>
+            <DeductionName>401-K</DeductionName>
+            <IsStatutory>false</IsStatutory>
+            <IsPreTax>true</IsPreTax>
+            <Amount>100</Amount>
+            <YTD>1200</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>United Way</DeductionName>
+            <IsStatutory>false</IsStatutory>
+            <IsPreTax>true</IsPreTax>
+            <Amount>25.00</Amount>
+            <YTD>250</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>FSA Medical</DeductionName>
+            <IsStatutory>false</IsStatutory>
+            <IsPreTax>true</IsPreTax>
+            <Amount>63.01</Amount>
+            <YTD>1078.16</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>Union Dues</DeductionName>
+            <IsStatutory>true</IsStatutory>
+            <IsPreTax>true</IsPreTax>
+            <Amount>70.00</Amount>
+            <YTD>1450.00</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>Group Insurance</DeductionName>
+            <IsStatutory>false</IsStatutory>
+            <IsPreTax>false</IsPreTax>
+            <Amount>44.17</Amount>
+            <YTD>662.55</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>Garnishment</DeductionName>
+            <IsStatutory>true</IsStatutory>
+            <IsPreTax>false</IsPreTax>
+            <Amount>15</Amount>
+            <YTD>225</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>Manhattan City</DeductionName>
+            <IsStatutory>true</IsStatutory>
+            <IsPreTax>false</IsPreTax>
+            <Amount>245.00</Amount>
+            <YTD>2340.00</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>State Withholdings</DeductionName>
+            <IsStatutory>true</IsStatutory>
+            <IsPreTax>false</IsPreTax>
+            <Amount>46.75</Amount>
+            <YTD>891.00</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>Federal</DeductionName>
+            <IsStatutory>true</IsStatutory>
+            <IsPreTax>false</IsPreTax>
+            <Amount>45.50</Amount>
+            <YTD>971.15</YTD>
+          </Deduction>
+          <Deduction>
+            <DeductionName>Computer Loan</DeductionName>
+            <IsStatutory>false</IsStatutory>
+            <IsPreTax>false</IsPreTax>
+            <Amount>10.50</Amount>
+            <YTD>222.75</YTD>
+          </Deduction>
+        </Deductions>
+        <MemoCalcs>
+          <MemoCalc>
+            <EarningCodeName>Taxable Life Insurance</EarningCodeName>
+            <Amount>10.00</Amount>
+            <YTD>180.00</YTD>
+          </MemoCalc>
+          <MemoCalc>
+            <EarningCodeName>Company Pension</EarningCodeName>
+            <Amount>150</Amount>
+            <YTD>2700</YTD>
+          </MemoCalc>
+        </MemoCalcs>
+        <BenefitAccrualBalances>
+          <BenefitAccrualBalance>
+            <BalanceCodeName>Vacation Balance</BalanceCodeName>
+            <Granted>0</Granted>
+            <Earned>1.6</Earned>
+            <Used>8</Used>
+            <Remaining>32</Remaining>
+          </BenefitAccrualBalance>
+          <BenefitAccrualBalance>
+            <BalanceCodeName>Floating Holiday Balance</BalanceCodeName>
+            <Remaining>16</Remaining>
+          </BenefitAccrualBalance>
+        </BenefitAccrualBalances>
+        <TotalValues>
+          <GrossHours>35.00</GrossHours>
+          <GrossPay>1200.08</GrossPay>
+          <PreTaxDeduction>258.01</PreTaxDeduction>
+          <PostTaxDeduction>54.67</PostTaxDeduction>
+          <TotalStatutoryDeduction>405.18</TotalStatutoryDeduction>
+          <NetPay>654.00</NetPay>
+          <GrossHoursYTD>922</GrossHoursYTD>
+          <GrossPayYTD>26560.85</GrossPayYTD>
+          <PreTaxDeductionYTD>3052</PreTaxDeductionYTD>
+          <PostTaxDeductionYTD>1250.00</PostTaxDeductionYTD>
+          <TotalStatutoryDeductionYTD>3560.00</TotalStatutoryDeductionYTD>
+          <NetPayYTD>2500.00</NetPayYTD>
+        </TotalValues>
+        <NetPayAllocations>
+          <NetPayAllocation>
+            <Category>CHECK</Category>
+            <AccountName>Cheque</AccountName>
+            <Amount>400.00</Amount>
+          </NetPayAllocation>
+          <NetPayAllocation>
+            <Category>DEPOSIT</Category>
+            <AccountName>RCB Checking Account</AccountName>
+            <BankNumber>111</BankNumber>
+            <TransitNumber>11118</TransitNumber>
+            <RoutingNumber>123456</RoutingNumber>
+            <AccountNumber>XXXXX9708</AccountNumber>
+            <Amount>185.00</Amount>
+          </NetPayAllocation>
+          <NetPayAllocation>
+            <Category>PAYCARD</Category>
+            <AccountName>Pay Card</AccountName>
+            <AccountNumber>XXXXX9710</AccountNumber>
+            <Amount>125.00</Amount>
+          </NetPayAllocation>
+        </NetPayAllocations>
+        <SupplementalPayStatement>
+          <SupplementalPay>
+            <EarningCodeName>Regular</EarningCodeName>
+            <Hours>24.0</Hours>
+            <Rate>17.5</Rate>
+            <Amount>420</Amount>
+            <BeginDate>2011-10-23</BeginDate>
+            <EndDate>2011-11-05</EndDate>
+          </SupplementalPay>
+          <SupplementalPay>
+            <EarningCodeName>Overtime</EarningCodeName>
+            <Hours>4.0</Hours>
+            <Rate>26.25</Rate>
+            <Amount>105</Amount>
+            <BeginDate>2011-10-23</BeginDate>
+            <EndDate>2011-11-05</EndDate>
+          </SupplementalPay>
+          <SupplementalPay>
+            <EarningCodeName>Bonus</EarningCodeName>
+            <Hours>0.0</Hours>
+            <Amount>500</Amount>
+            <BeginDate>2011-10-23</BeginDate>
+            <EndDate>2011-11-05</EndDate>
+          </SupplementalPay>
+        </SupplementalPayStatement>
+        <EmployerMessages>
+          <EmployerMessage>
+            <Message>Have fun in Disney!</Message>
+          </EmployerMessage>
+        </EmployerMessages>
+      </Employee>
+    </Employees>
+  </Employer>
+</EarningImport>
+
+
+
+

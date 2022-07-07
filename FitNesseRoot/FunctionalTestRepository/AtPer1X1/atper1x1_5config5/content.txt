@@ -1,0 +1,6 @@
+!define ClientName {atper1${version}_10005}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define ClientId {10005}
+!define CultureId {1033}
+
+!contents

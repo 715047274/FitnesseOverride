@@ -1,0 +1,46 @@
+!4 General Site Info
+!define loginPage {https://sharedautomation.dayforce.com/mydayforce/MyDayforce.aspx}
+!define baseRequestUri {https://sharedautomation.dayforce.com/mydayforce/}
+!define OutlookServiceUri {https://sharedautomation.dayforce.com/OutlookServices/}
+!define oDataRequestUri {https://sharedautomation.dayforce.com/Odata} 
+!define restfulApiUri {https://sharedautomation.dayforce.com/api/}
+!define restfulApiRootUri {https://sharedautomation.dayforce.com/root/api/}
+!define deviceServiceUri {https://sharedautomation.dayforce.com/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://sharedautomation.dayforce.com/TestServices/TestService.svc}
+!define coreServiceUri {https://sharedautomation.dayforce.com/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+!define userName {cadmin}
+!define password {1}
+!define SiteName {sharedautomation_site}
+!define siteRequestUri {${baseRequestUri}${SiteName}}
+
+!4 Admin Service Info
+!define masterAdminWebServiceUri {https://qaautoadmin.dayforce.com/datasvc/AdminService.svc}
+!define masterAdminWebServiceUsername {MasterSiteUser}
+!define masterAdminWebServicePassword {123456}
+!define masterAdminWebServiceBinding {StandardSslBinding}
+
+!4 Dayforce Services Info
+!define dsBindingTypeName {StandardSslBinding}
+!define dayforceServiceUri {https://sharedautomation.dayforce.com/DataSvc/DayforceService.svc}
+!define dsNotifReceiverServiceUri {!-https://sharedautomation.dayforce.com/DataSvc/DFNotificationReceiverService.svc-!}
+#!define dsNotifReceiverServiceUri {http://localhost:51121/DFNotificationReceiverService.svc}
+
+#Base Payroll Export/Import Locations
+!define BasePayrollOutputServicesDirectory {\\ncqabje16\_bje_imp_exp\sharedautomation\PayrollOutputServices\}
+
+!define baseArcBjeLoc {\\ncqabje16\_bje_imp_exp\sharedautomation\}
+!define baseTempBjeLoc {\\ncqabje16\_bje_imp_exp\sharedautomation\}
+!define baseBjeImportLoc {\\ncqabje16\_bje_imp_exp\sharedautomation\}
+
+
+!4 Admin Portal Info
+!define adminRequestUri {https://qaautoadmin.dayforce.com/mydayforce/}
+!define adminNamespace {qaautoadmin}
+!define adminUserName {sysadmin}
+!define adminPass {1}
+
+
+
+!contents -R2 -g -p -f -h

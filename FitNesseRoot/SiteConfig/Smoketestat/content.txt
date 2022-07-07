@@ -1,0 +1,17 @@
+
+!define version {smoketestat}
+
+Service Endpoints
+!define customDataServiceUri {https://smoketestat.dayforce.com/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://smoketestat.dayforce.com/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://smoketestat.dayforce.com/TestServices/TestService.svc}
+!define coreServiceUri {https://smoketestat.dayforce.com/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+
+Test Context
+!define baseRequestUri {https://smoketestat.dayforce.com/mydayforce/}
+!define userName {cadmin}
+!define password {1}
+
+!contents

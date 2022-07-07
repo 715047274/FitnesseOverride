@@ -1,0 +1,6 @@
+!-   ***  IMT  ***  -!
+
+!define ClientName {at${release}rep14}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

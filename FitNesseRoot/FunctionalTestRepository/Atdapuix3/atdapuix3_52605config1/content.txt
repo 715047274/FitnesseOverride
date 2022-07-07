@@ -1,0 +1,6 @@
+!-  ***  Sunopta*** -!
+
+!define ClientName {atdap${release}_52605}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

@@ -1,0 +1,54 @@
+!define loginPage {https://qaautocontrol.dayforce.com/qaautoairtx1/mydayforce/MyDayforce.aspx}
+!define customDataServiceUri {https://qaautocontrol.dayforce.com/qaautoairtx1/DataSvc/CustomData.svc}
+!define baseRequestUri {https://qaautocontrol.dayforce.com/qaautoairtx1/mydayforce/}
+!define deviceServiceUri {https://qaautocontrol.dayforce.com/qaautoairtx1/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://qaautocontrol.dayforce.com/qaautoairtx1/TestServices/TestService.svc}
+!define oDataRequestUri {https://qaautocontrol.dayforce.com/qaautoairtx1/Odata} 
+!define restfulApiUri {https://qaautocontrol.dayforce.com/qaautoairtx1/api/}
+!define restfulApiRootUri {https://qaautocontrol.dayforce.com/rootai/api/}
+!define OutlookServiceUri {https://qaautocontrol.dayforce.com/qaautoairtx1/OutlookServices/}
+!define dsNotifReceiverServiceUri {!-https://qaautocontrol.dayforce.com/qaautoairtx1/DataSvc/DFNotificationReceiverService.svc-!}
+#!define dsNotifReceiverServiceUri {http://localhost:51121/DFNotificationReceiverService.svc}
+!define coreServiceUri {https://qaautocontrol.dayforce.com/qaautoairtx1/DataSvc/CoreService.svc}
+!define dayforceServiceUri {https://qaautocontrol.dayforce.com/qaautoairtx1/DataSvc/DayforceService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define dsBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+!define userName {cadmin}
+!define password {1}
+!define adminUserName {InternalAdminPortalClockUser}
+!define adminPass {1}
+!define siteType {QA}
+!define SiteName {qaautoairtx1_site}
+
+
+#Not my first choice to put this here, but no clear path to getting it out of the service layer
+#Should be replace with new AP session authentication
+!define adminPortalDBConn {provider=sqloledb;server=nan4auto1sql01;database=qaautoadmin;uid=wbpoc;pwd=sql@tfs2008}
+
+!4 Admin Service Info
+!define masterAdminWebServiceUri {https://qaautoaiadmin.dayforce.com/datasvc/AdminService.svc}
+!define masterAdminWebServiceUsername {MasterSiteUser}
+!define masterAdminWebServicePassword {123456}
+!define masterAdminWebServiceBinding {StandardSslBinding}
+
+#----------------------ADMIN PORTAL SITE
+!4 General Admin Portal Site Info
+!define admRequestUri {https://qaautoaiadmin.dayforce.com/mydayforce/qaautoaiadmin}
+!define admCoreServiceUri {https://qaautoaiadmin.dayforce.com/datasvc/CoreService.svc}
+!define admTestServiceUri {https://qaautoaiadmin.dayforce.com/TestServices/TestService.svc}
+!define admTestServiceBindingTypeName {StandardSslBinding}
+!define admBindingTypeName {StandardCustomSslBinding}
+!define admUserName {admin}
+!define admPassword {admin123}
+!define admClientName {qaautoaiadmin}
+
+
+
+!define MasterBjeMachineName {NCQABJE1}
+!define bjrServer {ncqabje16}
+!define BasePayrollOutputServicesDirectory {\\${bjrServer}\_bje_imp_exp\_qaautocontrol_qaautoairtx1\PayrollOutputServices\}
+!define baseBjeFolder {\\${bjrServer}\_bje_imp_exp\_qaautocontrol_qaautoairtx1\}
+
+
+!contents

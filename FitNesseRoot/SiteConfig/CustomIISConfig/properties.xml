@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<properties>
+<Edit/>
+<Files/>
+<Normal/>
+<Properties/>
+<Prune/>
+<RecentChanges/>
+<Search/>
+<SymbolicLinks>
+<AcceptanceTestSuite>file://../DfTestRepository/AcceptanceTestSuite</AcceptanceTestSuite>
+<ArchSuite>file://../DfTestRepository/ArchSuite</ArchSuite>
+<EnvironmentHealthCheckSuite>file://../DfTestRepository/EnvironmentHealthCheckSuite</EnvironmentHealthCheckSuite>
+<WfmSuite>file://../DfTestRepository/WfmSuite</WfmSuite>
+<CompSuite>file://../DfTestRepository/CompSuite</CompSuite>
+</SymbolicLinks>
+<Versions/>
+<WhereUsed/>
+</properties>

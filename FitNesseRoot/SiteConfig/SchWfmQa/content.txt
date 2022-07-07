@@ -1,0 +1,25 @@
+!|import|
+|fitnesse.slim.text|
+|fitnesse.fixtures|
+|DFAcceptanceTest|
+
+!define version {858}
+
+Service Endpoints
+!define baseUrl_ {https://qa.dayforce.com/}
+!define customDataServiceUri {${baseUrl_}${version}/DataSvc/CustomData.svc}
+!define deviceServiceUri {${baseUrl_}${version}/DeviceServices/DeviceService.svc}
+!define testServiceUri {${baseUrl_}${version}/TestServices/TestService.svc}
+!define coreServiceUri {${baseUrl_}${version}/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+
+Test Context
+!define baseRequestUri {${baseUrl_}${version}/MyDayforce/}
+!define userName {cadmin}
+!define password {1}
+
+Selenium configuration
+!define browser {firefox}
+
+!contents

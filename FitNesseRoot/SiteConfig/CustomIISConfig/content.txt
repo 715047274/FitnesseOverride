@@ -1,0 +1,84 @@
+!|import|
+|fitnesse.slim.text|
+|fitnesse.fixtures|
+|DFAcceptanceTest|
+
+
+!*** Express
+!define loginPage {http://${requestUrl}/Mydayforce/MyDayforce.aspx}
+!define coreServiceUri {http://${requestUrl}/DataSvc/CoreService.svc}
+!define testServiceUri {http://${requestUrl}/TestServices/TestService.svc}
+!define deviceServiceUri {http://${requestUrl}/DeviceServices/DeviceService.svc}
+!define requestUri {http://${requestUrl}/MyDayforce}
+***!
+
+!4 General Site Info
+#!define loginPage {http://canws222.dayforce.com/Mydayforce/MyDayforce.aspx}
+#!define coreServiceUri {http://canws222.dayforce.com/DataSvc/CoreService.svc}
+#!define testServiceUri {http://canws222.dayforce.com/TestServices/TestService.svc}}
+#!define deviceServiceUri {http://canws222.dayforce.com/DeviceServices/DeviceService.svc}
+#!define requestUri {http://canws222.dayforce.com/MyDayforce}
+!define oDataRequestUri {http://${requestUrl}:12799}
+#!define requestUri {http://${requestUrl}:51000/DFLocal}
+#!define OutlookUri {http://${requestUrl}:1065/OutlookServices/}
+!define OutlookUri {http://${requestUrl}:1065/}
+!define siteType {Development}
+
+
+!define baseRequestUri {${requestUri}/}
+!define bindingTypeName {StandardHttpBindingWithLongTimeOut}
+!define userName {cadmin}
+#!define userName {admin}
+!define ClientName {${clientName}}
+!define NameSpace {${ClientName}}
+#!define ClientName {qaautoap}
+# this can be removed and obtained from the SiteSettings
+!define SiteName {${ClientName}}
+!define siteRequestUri {${requestUri}/${SiteName}}
+!define password {1}
+!define testServiceBindingTypeName {BasicHttpBindingWithLongTimeOut}
+
+!4 Admin Portal Info
+!define adminRequestUri {http://${requestUrl}:51000}
+!define adminNamespace {qaautoadminportal}
+!define adminUserName {sysadmin}
+!define adminPass {1}
+#Not my first choice to put this here, but no clear path to getting it out of the service layer
+!define adminPortalDBConn {provider=sqloledb;server=${requestUrl};database=AdminPortal;uid=wbpoc;pwd=sql@tfs2008}
+
+!4 Admin Service Info
+!define masterAdminWebServiceUri {http://${requestUrl}:56798/AdminService.svc}
+!define masterAdminWebServiceUsername {MasterSiteUser}
+!define masterAdminWebServicePassword {1}
+!define masterAdminWebServiceBinding {BasicHttpBindingWithLongTimeOut}
+
+!4 Admin Service Info
+!define adminServiceNewUri {http://${requestUrl}:63804/AdminService.svc}
+!define adminServiceNewBinding {BasicHttpBindingWithLongTimeOut}
+
+
+!4 BJE Info
+!define bjeServer {${requestUrl}\c$}
+!define BasePayrollOutputServicesDirectory {c:\FTPROOT\DFControl\PayrollOutputServices\}
+!define baseBjeFolder {c:\FTPROOT\DFControl\}
+!define MasterBjeMachineName {${requestUrl}}
+
+!4 Dayforce Services Info
+!define dsNotifReceiverServiceUri {!-http://${requestUrl}:51121/DFNotificationReceiverService.svc-!}
+!define dsBindingTypeName {BasicHttpBindingWithLongTimeOut}
+!define dayforceServiceUri {http://${requestUrl}:56798/DayforceService.svc}
+
+!4 Admin Portal Test Client Site Info
+!define apSharpTopSiteName {qaauto}
+!define apSharpTopClientNs {qaauto9}
+!define apSharpTopClientId {999909}
+#!define apSharpTopClientRequestUri {${baseRequestUri}${apSharpTopClientNs}}
+
+Selenium configuration
+!define clockURL {https://atwfm.dayforce.com/${version}/clock/index.html}
+!define browser {marionette}
+
+
+
+!contents
+

@@ -1,0 +1,14 @@
+
+!define membershipServiceUri {https://qaposcontrol.dayforce.com/Membership/Membership.svc}
+!define dataProcessorServiceUri {https://qaposcontrol.dayforce.com/DataProcessor/DataProcessor.svc}
+!define customDataServiceUri {https://qaposcontrol.dayforce.com/DataSvc/CustomData.svc}
+!define requestUri {https://qaposcontrol.dayforce.com/mydayforce/qapos2}
+!define testServiceUri {https://qaposcontrol.dayforce.com/TestService/TestService.svc}
+!define coreServiceUri {https://qaposcontrol.dayforce.com/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {BasicHttpBinding}
+!define bindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {cerid1@n!}
+!define ClientName {qapos2}
+
+!contents

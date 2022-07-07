@@ -1,0 +1,11 @@
+!define ClientName {${version}atrec2}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define candidateUri {${baseCandidatePortalUri}en-US/${ClientName}}
+!define candidateUriIframe {${baseCandidatePortalUri}${ClientName}.html}
+!define candidatePortalIframe {${baseCandidatePortalFolder}${ClientName}.html}
+!define ClientId {10002}
+!define CultureId {1033}
+!define SovrenDirectory {${BaseSovrenDirectory}Resume_${version}atrec2-temp\XML}
+!define EmployeeId {15600862180}
+!define ManagerId {25600862180}
+!contents

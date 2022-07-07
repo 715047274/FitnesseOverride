@@ -1,0 +1,35 @@
+2022-06-23 10:01:20.4331 DEBUG WidgetClickOnElementIdentifiedBy - Payroll::Tab::Pay Run Management: START
+2022-06-23 10:01:20.4331 DEBUG WidgetClickOnElementIdentifiedBy - Payroll::Tab::Pay Run Management: attemp #1
+2022-06-23 10:01:20.4331 DEBUG HandleWidgetElementIdentifiedBy - Payroll::Tab::Pay Run Management::False::30: START
+2022-06-23 10:01:20.4331 DEBUG DriverGetElementIdentifiedBy - Tab::Pay Run Management::False::30: START
+2022-06-23 10:01:20.4571 DEBUG DriverGetElementIdentifiedBy - Tab::Pay Run Management::False::30: Location 1
+2022-06-23 10:01:20.4581 DEBUG DriverGetElementIdentifiedBy - Tab::Pay Run Management::False::30: Location 2
+2022-06-23 10:01:20.4780 DEBUG DriverGetElementIdentifiedBy - Tab::Pay Run Management::False::30: END
+2022-06-23 10:01:20.4951 DEBUG HandleWidgetElementIdentifiedBy - Payroll::Tab::Pay Run Management::False::30: END
+2022-06-23 10:01:20.5130 DEBUG WidgetClickOnElementIdentifiedBy - Payroll::Tab::Pay Run Management: base.start
+2022-06-23 10:01:21.5689 DEBUG WidgetClickOnElementIdentifiedBy - Payroll::Tab::Pay Run Management: base.end
+2022-06-23 10:01:21.5689 DEBUG WidgetClickOnElementIdentifiedBy - Payroll::Tab::Pay Run Management: END
+2022-06-23 10:01:26.5869 DEBUG WidgetGridClickCellByRowNumberColumnName - LoadPayRunDialog::PayRun::1::Pay Group: START
+2022-06-23 10:01:26.5869 DEBUG WidgetGridClickCellByRowNumberColumnName - LoadPayRunDialog::PayRun::1::Pay Group: attempt #1
+2022-06-23 10:01:29.1610 DEBUG WidgetGridClickCellByRowNumberColumnName - LoadPayRunDialog::PayRun::1::Pay Group: END
+2022-06-23 10:01:31.1844 DEBUG WidgetClickOnButton - LoadPayRunDialog::Load: START
+2022-06-23 10:01:31.1844 DEBUG WidgetClickOnButton - LoadPayRunDialog::Load: GetVisibleElement start
+2022-06-23 10:01:31.2301 DEBUG WidgetClickOnButton - LoadPayRunDialog::Load: GetVisibleElement end
+2022-06-23 10:01:31.2504 DEBUG WidgetClickOnButton - LoadPayRunDialog::Load: base.start
+2022-06-23 10:01:32.3517 DEBUG WidgetClickOnButton - LoadPayRunDialog::Load: base.end
+2022-06-23 10:01:32.3517 DEBUG WidgetClickOnButton - LoadPayRunDialog::Load: END
+2022-06-23 10:01:38.3420 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: START
+2022-06-23 10:01:38.3420 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: attemp #1
+2022-06-23 10:01:38.3420 DEBUG HandleWidgetElementIdentifiedBy - PayRunManagement::Tab::Quick Entry::False::30: START
+2022-06-23 10:01:38.3420 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: START
+2022-06-23 10:01:38.3760 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: Location 1
+2022-06-23 10:01:38.3760 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: Location 2
+2022-06-23 10:01:48.5473 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: not displayed, waited 11 seconds
+2022-06-23 10:01:48.5473 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: END
+2022-06-23 10:01:48.5592 DEBUG HandleWidgetElementIdentifiedBy - PayRunManagement::Tab::Quick Entry::False::30: not within view
+2022-06-23 10:01:48.5592 DEBUG ScrollIntoView: START
+2022-06-23 10:01:48.5592 DEBUG ScrollIntoView: END
+2022-06-23 10:01:48.5592 DEBUG HandleWidgetElementIdentifiedBy - PayRunManagement::Tab::Quick Entry::False::30: END
+2022-06-23 10:01:48.5774 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: base.start
+2022-06-23 10:01:54.5820 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: base.end
+2022-06-23 10:01:54.5820 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: END

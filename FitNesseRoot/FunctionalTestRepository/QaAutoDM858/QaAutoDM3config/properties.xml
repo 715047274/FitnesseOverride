@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<properties>
+  <Edit/>
+  <Files/>
+  <Normal/>
+  <Properties/>
+  <Prune/>
+  <RecentChanges/>
+  <Search/>
+  <Static/>
+  <SymbolicLinks>
+    <AcceptanceTestSuite>file://../DfTestRepository/AcceptanceTestSuite</AcceptanceTestSuite>
+    <ArchSuite>file://../DfTestRepository/</ArchSuite>
+    <EnvironmentHealthCheckSuite>file://../DfTestRepository/EnvironmentHealthCheckSuite</EnvironmentHealthCheckSuite>
+  </SymbolicLinks>
+  <Versions/>
+  <WhereUsed/>
+</properties>

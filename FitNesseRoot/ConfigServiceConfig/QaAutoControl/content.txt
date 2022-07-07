@@ -1,0 +1,28 @@
+!path ..\DFAcceptanceTest\DFAcceptanceTest\bin\Debug\DFAcceptanceTest.dll
+!define customDataServiceUri {https://qaautocontrol.dayforce.com/DataSvc/CustomData.svc}
+!define baseRequestUri {https://qaautocontrol.dayforce.com/mydayforce/}
+!define deviceServiceUri {https://qaautocontrol.dayforce.com/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://qaautocontrol.dayforce.com/TestServices/TestService.svc}
+!define coreServiceUri {https://qaautocontrol.dayforce.com/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define BasePayrollOutputServicesDirectory {\\torsvint02\FTPROOT2\qaautocontrol\PayrollOutputServices\}
+
+!define baseArcBjeLoc {\\TORSVint02\FTPROOT2\qaautocontrol\}
+!define baseTempBjeLoc {\\TORSVint02\FTPROOT2\qaautocontrol\}
+!define baseBjeImportLoc {\\TORSVint02\FTPROOT2\qaautocontrol\}
+
+!define HrImportLocGood {Y:\Quality Assurance\Tools\FitNesse\HrImport\HRImport_EmpInfoOnly3.xml}
+!define HrImportLocBad {Y:\Quality Assurance\Tools\FitNesse\HrImport\HRImport_EmpInfoOnly4.xml}
+
+!4 Parameters for Config Service testing
+
+!define DfAdminUsername {MasterSiteUser}
+!define DfAdminPassword {123456}
+!define bjeHostMachineName {TORSVINT02}
+!define bjeHostMachineService {DFBJE_QAAUTOCONTROL}
+
+!contents

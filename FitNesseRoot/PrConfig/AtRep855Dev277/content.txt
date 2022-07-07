@@ -1,0 +1,26 @@
+!-  ***  RBC *** -!
+
+!define release {855}
+!path ..\DFAcceptanceTest\DFAcceptanceTest\bin\Debug\DFAcceptanceTest.dll
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!define requestUri {http://localhost:51000/at${release}rep277}
+!define baseRequestUri {${requestUri}}
+!define deviceServiceUri {http://localhost:51294/DeviceService.svc}
+!define bindingTypeName {StandardHttpBindingWithLongTimeOut}
+!define userName {cadmin}
+!define ClientName {at${release}rep277}
+!define password {1}
+!define ClientId {22415}
+!define testServiceBindingTypeName {BasicHttpBindingWithLongTimeOut}
+!define adminUserName {admin}
+!define adminPass {cadmin}
+
+!define bjeServer {localhost\c$}
+!define BasePayrollOutputServicesDirectory {c:\FTPROOT\DFControl\PayrollOutputServices\}
+!define baseBjeFolder {c:\FTPROOT\DFControl\}
+
+
+!contents
+
+

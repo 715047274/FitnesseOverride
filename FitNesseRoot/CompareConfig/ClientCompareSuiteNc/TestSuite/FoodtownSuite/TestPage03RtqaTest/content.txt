@@ -1,0 +1,72 @@
+!*> Global Definition
+
+!define PATH_TO_SLIM {${rtqaPathToSlim}}
+!define PATH_TO_FIXTURE (${rtqaPathToFixture})
+
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,${PATH_TO_SLIM}\fitSharp.dll -a ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll.config ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll}
+!define TEST_RUNNER {${PATH_TO_SLIM}\Runner.exe}
+*!
+
+!4 Establish Session
+!|script|
+|Establish Test Session Creation Data;|${userName}|${password}|${rtqaRequestUri}|${BindingTypeName}|${rtqaCoreServiceUri}|${TestServiceBindingTypeName}|${rtqaTestServiceUri}|
+|$context=|Context Id|
+
+!4 Get Paygroups and Payruns
+!|script|
+|$cadminId=|GetAppUserIdByLoginId|${userName}|AndClientId|${ClientId}|
+|$paygroups=|GetPayGroups|
+|$payRunIds=|GetLatestPayRunIdsByPaygroupIds|$paygroups|
+|$committedPaygroups=|GetPaygroupIdsWithCommittedPayrunIds|$payRunIds|
+|SetPayrollCommittedDateToCurrentDate|$payRunIds|
+
+!4 Fix Payrun Errors
+!|script|
+|$employmentStatusIds=|FixInvalidTerminationPayrunErrors;|$payRunIds|${ClientId}|
+
+!|script|
+|$personAddressIds=|FixInvalidPrimaryAddressPayrunErrors|$payRunIds|
+
+!4 Void Payruns
+!|script|
+|Void Pay Runs;|$payRunIds|$committedPaygroups|
+|Pause|60|
+
+!|script|
+|$runs=|GetVoidStatus|$committedPaygroups|
+|check|All Runs|$payRunIds|Voided|$runs|true|
+
+!4 Recalc and Commit Payruns
+!|script|
+|$elapseTimes=|Recalculate Payroll For Paygroup Ids|$committedPaygroups|And Pay Run Ids|$payRunIds|
+
+!|script|
+|$commitTimes= |Commit Payroll For Paygroup Ids|$committedPaygroups|And Pay Run Ids|$payRunIds|
+
+!|script|
+|check|AllRunsCommitted|$commitTimes|true|
+|Pause|120|
+
+!4 Copy Payroll Data to new location
+!|script|
+|$fileInfo=|GetFileTransmissionServiceDetailForPayrunsWithFileTransmissionTypeAndFileType;|$payRunIds|1|!-Payroll Data-!|
+|$newFiles=|Copy Files|$fileInfo|From Server|${rtqaImpExpDir}|To Location|${rtqaCompareFilesLocation}!-\Payroll Data\-!|
+
+!4 Copy Reports to new location
+!|script|
+|$reportInfo=|GetFileTransmissionServiceDetailForPayrunsWithFileTransmissionTypeAndFileType;|$payRunIds|1|!-Report-!|
+|$newReports=|Copy Files|$reportInfo|From Server|${rtqaImpExpDir}|To Location|${rtqaCompareFilesLocation}!-\Reports\-!|
+
+!4 Copy Pay Run Data Exports to new location
+!|script|
+|$exportInfo=|GetFileTransmissionServiceDetailForPayrunsWithFileTransmissionTypeAndFileType;|$payRunIds|2|!-Pay Run Data Export-!|
+|$newExports=|Copy Files|$exportInfo|From Server|${rtqaImpExpDir}|To Location|${rtqaCompareFilesLocation}!-\Pay Run Data Exports\-!|
+
+#!|script|
+#| Establish Compare Environment And Client; | ${DbBackups} | ${rtqaDbServer} | ${rtqaClientName} | ${rtqaWorkspace} | ${ClientId} |
+#|$baseLine=|Generate Compare Files;|$payRunIds|!-NewFile-!|
+
+#!|script|Payroll Registry Report|$context|
+#|Create Payroll Registry Xml File For Pay Run Id;|$payRunIds|${rtqaCompareFilesLocation}|
+
+!contents -R2 -g -p -f -h

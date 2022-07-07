@@ -1,0 +1,22 @@
+!path ..\DFAcceptanceTest\DFAcceptanceTest\bin\Debug\DFAcceptanceTest.dll
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!define requestUri {http://localhost:51000/DFLocal}
+!define bindingTypeName {StandardHttpBinding}
+!define userName {cadmin}
+!define ClientName {DefaultClient}
+!define password {1}
+!define ClientId {8395}
+!define CAdminId {1001} 
+!define testServiceBindingTypeName {BasicHttpBinding}
+
+
+!4 Parameters for Config Service testing
+!define NameSpace {DFLocal}
+!define DfAdminUsername {admin}
+!define DfAdminPassword {Local123}
+!define bjeHostMachineName {canws11}
+!define bjeHostMachineService {MyBJE}
+
+
+!contents

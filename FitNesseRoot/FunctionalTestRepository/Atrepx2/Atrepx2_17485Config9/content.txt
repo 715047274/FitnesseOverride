@@ -1,0 +1,6 @@
+!-  ***  SMG *** -!
+
+!define ClientName {atrep${release}_17485}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

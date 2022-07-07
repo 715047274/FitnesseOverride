@@ -1,0 +1,193 @@
+2022-07-05 10:27:14.0426 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: START
+2022-07-05 10:27:14.0426 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: GetVisibleElement start
+2022-07-05 10:27:14.0723 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: GetVisibleElement end
+2022-07-05 10:27:14.0954 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: base.start
+2022-07-05 10:27:15.1582 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: base.end
+2022-07-05 10:27:15.1603 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: END
+2022-07-05 10:27:15.2979 DEBUG WidgetClickOnElement - FeatureToolbar::People: START
+2022-07-05 10:27:15.2999 DEBUG WidgetClickOnElement - FeatureToolbar::People: attemp #1
+2022-07-05 10:27:15.2999 DEBUG HandleWidgetElement - FeatureToolbar::People::False::30: START
+2022-07-05 10:27:15.2999 DEBUG DriverGetElement - People::False::30: Attempt #2
+2022-07-05 10:27:15.3288 DEBUG DriverGetElement - People::False::30: Location 1
+2022-07-05 10:27:15.3308 DEBUG DriverGetElement - People::False::30: Location 2
+2022-07-05 10:27:15.3478 DEBUG DriverGetElement - People::False::30: END
+2022-07-05 10:27:15.3478 DEBUG HandleWidgetElement - FeatureToolbar::People::False::30: END
+2022-07-05 10:27:15.3718 DEBUG WidgetClickOnElement - FeatureToolbar::People: base.start
+2022-07-05 10:27:16.4326 DEBUG WidgetClickOnElement - FeatureToolbar::People: base.end
+2022-07-05 10:27:16.4326 DEBUG WidgetClickOnElement - FeatureToolbar::People: END
+2022-07-05 10:27:20.9310 DEBUG Waited LoadingSpinner in ms: 4489
+2022-07-05 10:27:20.9310 DEBUG ViewEmployee Waited LoadingSpinner in ms: 4492
+2022-07-05 10:27:20.9310 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: START
+2022-07-05 10:27:20.9310 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: attemp #1
+2022-07-05 10:27:20.9310 DEBUG HandleWidgetElementIdentifiedBy - FilterPane::FilterTextBox::Name::False::30: START
+2022-07-05 10:27:20.9310 DEBUG DriverGetElementIdentifiedBy - FilterTextBox::Name::False::30: START
+2022-07-05 10:27:20.9552 DEBUG DriverGetElementIdentifiedBy - FilterTextBox::Name::False::30: Location 1
+2022-07-05 10:27:20.9568 DEBUG DriverGetElementIdentifiedBy - FilterTextBox::Name::False::30: Location 2
+2022-07-05 10:27:20.9748 DEBUG DriverGetElementIdentifiedBy - FilterTextBox::Name::False::30: END
+2022-07-05 10:27:20.9748 DEBUG HandleWidgetElementIdentifiedBy - FilterPane::FilterTextBox::Name::False::30: END
+2022-07-05 10:27:21.0018 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: base.start
+2022-07-05 10:27:22.0934 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: base.end
+2022-07-05 10:27:22.0934 DEBUG WidgetClickOnElementIdentifiedBy - FilterPane::FilterTextBox::Name: END
+2022-07-05 10:27:23.5483 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: START
+2022-07-05 10:27:23.5483 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: GetVisibleElement start
+2022-07-05 10:27:23.5827 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: GetVisibleElement end
+2022-07-05 10:27:23.6014 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: base.start
+2022-07-05 10:27:24.6704 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: base.end
+2022-07-05 10:27:24.6704 DEBUG WidgetClickOnButton - FilterPane::Apply Filter: END
+2022-07-05 10:27:26.7034 DEBUG WidgetGridClickCellByRowNumberColumnName - People::People::1::Check Box: START
+2022-07-05 10:27:26.7034 DEBUG WidgetGridClickCellByRowNumberColumnName - People::People::1::Check Box: attempt #1
+2022-07-05 10:27:27.8202 DEBUG WidgetGridClickCellByRowNumberColumnName - People::People::1::Check Box: END
+2022-07-05 10:27:27.8202 DEBUG WidgetClickOnButton - People::View Profiles: START
+2022-07-05 10:27:27.8202 DEBUG WidgetClickOnButton - People::View Profiles: GetVisibleElement start
+2022-07-05 10:27:27.8683 DEBUG WidgetClickOnButton - People::View Profiles: GetVisibleElement end
+2022-07-05 10:27:27.8844 DEBUG WidgetClickOnButton - People::View Profiles: base.start
+2022-07-05 10:27:28.9899 DEBUG WidgetClickOnButton - People::View Profiles: base.end
+2022-07-05 10:27:28.9899 DEBUG WidgetClickOnButton - People::View Profiles: END
+2022-07-05 10:27:29.0206 DEBUG WidgetClickOnElementIdentifiedBy - ActiveMenu::DropDownItemValue::Overview: START
+2022-07-05 10:27:29.0206 DEBUG WidgetClickOnElementIdentifiedBy - ActiveMenu::DropDownItemValue::Overview: attemp #1
+2022-07-05 10:27:29.0206 DEBUG HandleWidgetElementIdentifiedBy - ActiveMenu::DropDownItemValue::Overview::False::30: START
+2022-07-05 10:27:29.0206 DEBUG DriverGetElementIdentifiedBy - DropDownItemValue::Overview::False::30: START
+2022-07-05 10:27:29.0405 DEBUG DriverGetElementIdentifiedBy - DropDownItemValue::Overview::False::30: Location 1
+2022-07-05 10:27:29.0405 DEBUG DriverGetElementIdentifiedBy - DropDownItemValue::Overview::False::30: Location 2
+2022-07-05 10:27:29.0595 DEBUG DriverGetElementIdentifiedBy - DropDownItemValue::Overview::False::30: END
+2022-07-05 10:27:29.0705 DEBUG HandleWidgetElementIdentifiedBy - ActiveMenu::DropDownItemValue::Overview::False::30: END
+2022-07-05 10:27:29.0885 DEBUG WidgetClickOnElementIdentifiedBy - ActiveMenu::DropDownItemValue::Overview: base.start
+2022-07-05 10:27:30.1547 DEBUG WidgetClickOnElementIdentifiedBy - ActiveMenu::DropDownItemValue::Overview: base.end
+2022-07-05 10:27:30.1547 DEBUG WidgetClickOnElementIdentifiedBy - ActiveMenu::DropDownItemValue::Overview: END
+2022-07-05 10:27:36.2783 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuExpansionItem::Payroll: START
+2022-07-05 10:27:36.2783 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuExpansionItem::Payroll: attemp #1
+2022-07-05 10:27:36.2783 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::LeftMenuExpansionItem::Payroll::False::30: START
+2022-07-05 10:27:36.2783 DEBUG DriverGetElementIdentifiedBy - LeftMenuExpansionItem::Payroll::False::30: START
+2022-07-05 10:27:36.3004 DEBUG DriverGetElementIdentifiedBy - LeftMenuExpansionItem::Payroll::False::30: Location 1
+2022-07-05 10:27:36.3004 DEBUG DriverGetElementIdentifiedBy - LeftMenuExpansionItem::Payroll::False::30: Location 2
+2022-07-05 10:27:36.3220 DEBUG DriverGetElementIdentifiedBy - LeftMenuExpansionItem::Payroll::False::30: END
+2022-07-05 10:27:36.3320 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::LeftMenuExpansionItem::Payroll::False::30: END
+2022-07-05 10:27:36.3471 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuExpansionItem::Payroll: base.start
+2022-07-05 10:27:37.4309 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuExpansionItem::Payroll: base.end
+2022-07-05 10:27:37.4309 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuExpansionItem::Payroll: END
+2022-07-05 10:27:37.4309 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuItem::Payroll Elections: START
+2022-07-05 10:27:37.4309 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuItem::Payroll Elections: attemp #1
+2022-07-05 10:27:37.4309 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::LeftMenuItem::Payroll Elections::False::30: START
+2022-07-05 10:27:37.4309 DEBUG DriverGetElementIdentifiedBy - LeftMenuItem::Payroll Elections::False::30: START
+2022-07-05 10:27:37.4539 DEBUG DriverGetElementIdentifiedBy - LeftMenuItem::Payroll Elections::False::30: Location 1
+2022-07-05 10:27:37.4539 DEBUG DriverGetElementIdentifiedBy - LeftMenuItem::Payroll Elections::False::30: Location 2
+2022-07-05 10:27:37.4747 DEBUG DriverGetElementIdentifiedBy - LeftMenuItem::Payroll Elections::False::30: END
+2022-07-05 10:27:37.4747 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::LeftMenuItem::Payroll Elections::False::30: END
+2022-07-05 10:27:37.5040 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuItem::Payroll Elections: base.start
+2022-07-05 10:27:38.5804 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuItem::Payroll Elections: base.end
+2022-07-05 10:27:38.5804 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::LeftMenuItem::Payroll Elections: END
+2022-07-05 10:27:40.6736 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::ToolbarButton::Payroll Elections::Add: START
+2022-07-05 10:27:40.6766 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::ToolbarButton::Payroll Elections::Add: attemp #1
+2022-07-05 10:27:40.6766 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::ToolbarButton::Payroll Elections::Add::False::30: START
+2022-07-05 10:27:40.6766 DEBUG DriverGetElementIdentifiedBy - ToolbarButton::Payroll Elections::Add::False::30: START
+2022-07-05 10:27:40.6954 DEBUG DriverGetElementIdentifiedBy - ToolbarButton::Payroll Elections::Add::False::30: Location 1
+2022-07-05 10:27:40.6954 DEBUG DriverGetElementIdentifiedBy - ToolbarButton::Payroll Elections::Add::False::30: Location 2
+2022-07-05 10:27:40.7182 DEBUG DriverGetElementIdentifiedBy - ToolbarButton::Payroll Elections::Add::False::30: END
+2022-07-05 10:27:40.7294 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::ToolbarButton::Payroll Elections::Add::False::30: END
+2022-07-05 10:27:40.7445 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::ToolbarButton::Payroll Elections::Add: base.start
+2022-07-05 10:27:41.8242 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::ToolbarButton::Payroll Elections::Add: base.end
+2022-07-05 10:27:41.8242 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::ToolbarButton::Payroll Elections::Add: END
+2022-07-05 10:27:42.8470 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Type::1: START
+2022-07-05 10:27:42.8470 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Type::1: attemp #1
+2022-07-05 10:27:42.8470 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Type::1::False::30: START
+2022-07-05 10:27:42.8470 DEBUG DriverGetElementIdentifiedBy - DropDown::Payroll Elections::Type::1::False::30: START
+2022-07-05 10:27:42.8665 DEBUG DriverGetElementIdentifiedBy - DropDown::Payroll Elections::Type::1::False::30: Location 1
+2022-07-05 10:27:42.8665 DEBUG DriverGetElementIdentifiedBy - DropDown::Payroll Elections::Type::1::False::30: Location 2
+2022-07-05 10:27:42.8895 DEBUG DriverGetElementIdentifiedBy - DropDown::Payroll Elections::Type::1::False::30: END
+2022-07-05 10:27:42.9022 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Type::1::False::30: END
+2022-07-05 10:27:42.9182 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Type::1: base.start
+2022-07-05 10:27:44.0295 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Type::1: base.end
+2022-07-05 10:27:44.0295 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Type::1: END
+2022-07-05 10:27:44.0295 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Earning: START
+2022-07-05 10:27:44.0295 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Earning: attemp #1
+2022-07-05 10:27:44.0295 DEBUG HandleWidgetElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Earning::False::30: START
+2022-07-05 10:27:44.0295 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Earning::False::30: START
+2022-07-05 10:27:44.0565 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Earning::False::30: Location 1
+2022-07-05 10:27:44.0565 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Earning::False::30: Location 2
+2022-07-05 10:27:44.0755 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Earning::False::30: END
+2022-07-05 10:27:44.0860 DEBUG HandleWidgetElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Earning::False::30: END
+2022-07-05 10:27:44.1016 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Earning: base.start
+2022-07-05 10:27:45.1824 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Earning: base.end
+2022-07-05 10:27:45.1824 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Earning: END
+2022-07-05 10:27:46.1980 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Code::2: START
+2022-07-05 10:27:46.1980 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Code::2: attemp #1
+2022-07-05 10:27:46.1980 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Code::2::False::30: START
+2022-07-05 10:27:46.1980 DEBUG DriverGetElementIdentifiedBy - DropDown::Payroll Elections::Code::2::False::30: START
+2022-07-05 10:27:46.2178 DEBUG DriverGetElementIdentifiedBy - DropDown::Payroll Elections::Code::2::False::30: Location 1
+2022-07-05 10:27:46.2178 DEBUG DriverGetElementIdentifiedBy - DropDown::Payroll Elections::Code::2::False::30: Location 2
+2022-07-05 10:27:46.2404 DEBUG DriverGetElementIdentifiedBy - DropDown::Payroll Elections::Code::2::False::30: END
+2022-07-05 10:27:46.2404 DEBUG HandleWidgetElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Code::2::False::30: END
+2022-07-05 10:27:46.2664 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Code::2: base.start
+2022-07-05 10:27:47.3632 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Code::2: base.end
+2022-07-05 10:27:47.3632 DEBUG WidgetClickOnElementIdentifiedBy - EmployeeProfile::DropDown::Payroll Elections::Code::2: END
+2022-07-05 10:27:47.3868 DEBUG ActiveElementSetText: Attemp #1, e.tagName:input
+2022-07-05 10:27:49.5041 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Parking20220705102525949: START
+2022-07-05 10:27:49.5041 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Parking20220705102525949: attemp #1
+2022-07-05 10:27:49.5041 DEBUG HandleWidgetElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Parking20220705102525949::False::30: START
+2022-07-05 10:27:49.5041 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Parking20220705102525949::False::30: START
+2022-07-05 10:27:49.5279 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Parking20220705102525949::False::30: Location 1
+2022-07-05 10:27:49.5279 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Parking20220705102525949::False::30: Location 2
+2022-07-05 10:27:49.5472 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Parking20220705102525949::False::30: END
+2022-07-05 10:27:49.5573 DEBUG HandleWidgetElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Parking20220705102525949::False::30: END
+2022-07-05 10:27:49.5716 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Parking20220705102525949: base.start
+2022-07-05 10:27:50.6508 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Parking20220705102525949: base.end
+2022-07-05 10:27:50.6508 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Parking20220705102525949: END
+2022-07-05 10:27:52.6966 DEBUG WidgetClickOnElement - EmployeeProfile::PayeeDropDown: START
+2022-07-05 10:27:52.6966 DEBUG WidgetClickOnElement - EmployeeProfile::PayeeDropDown: attemp #1
+2022-07-05 10:27:52.6966 DEBUG HandleWidgetElement - EmployeeProfile::PayeeDropDown::False::30: START
+2022-07-05 10:27:52.6966 DEBUG DriverGetElement - PayeeDropDown::False::30: Attempt #2
+2022-07-05 10:27:52.7365 DEBUG DriverGetElement - PayeeDropDown::False::30: Location 1
+2022-07-05 10:27:52.7386 DEBUG DriverGetElement - PayeeDropDown::False::30: Location 2
+2022-07-05 10:27:52.7630 DEBUG DriverGetElement - PayeeDropDown::False::30: END
+2022-07-05 10:27:52.7751 DEBUG HandleWidgetElement - EmployeeProfile::PayeeDropDown::False::30: END
+2022-07-05 10:27:52.7940 DEBUG WidgetClickOnElement - EmployeeProfile::PayeeDropDown: base.start
+2022-07-05 10:27:53.8822 DEBUG WidgetClickOnElement - EmployeeProfile::PayeeDropDown: base.end
+2022-07-05 10:27:53.8822 DEBUG WidgetClickOnElement - EmployeeProfile::PayeeDropDown: END
+2022-07-05 10:27:53.8822 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949: START
+2022-07-05 10:27:53.8822 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949: attemp #1
+2022-07-05 10:27:53.8822 DEBUG HandleWidgetElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949::False::30: START
+2022-07-05 10:27:53.8822 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: START
+2022-07-05 10:27:53.9110 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: Location 1
+2022-07-05 10:27:53.9110 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: Location 2
+2022-07-05 10:28:23.9710 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: caught exception OpenQA.Selenium.NoSuchElementException -  -    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 275
+2022-07-05 10:28:23.9710 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: element not found, throw ElementNotPresentException
+2022-07-05 10:28:23.9730 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949: caught exception ElementNotPresentException -  -    at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 316
+   at PayrollSeleniumTest.PayrollFlowBase.HandleWidgetElementIdentifiedBy(String widget, String elementName, String identifiers, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\FrameworkUtil.cs:line 107
+   at PayrollSeleniumTest.PayrollFlowBase.WidgetClickOnElementIdentifiedBy(String widget, String elementName, String identifiers) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Override.cs:line 247
+2022-07-05 10:28:23.9730 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949: attemp #2
+2022-07-05 10:28:23.9730 DEBUG HandleWidgetElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949::False::30: START
+2022-07-05 10:28:23.9730 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: START
+2022-07-05 10:28:24.0074 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: Location 1
+2022-07-05 10:28:24.0074 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: Location 2
+2022-07-05 10:28:54.0784 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: caught exception OpenQA.Selenium.NoSuchElementException -  -    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 275
+2022-07-05 10:28:54.0784 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: element not found, throw ElementNotPresentException
+2022-07-05 10:28:54.0824 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949: caught exception ElementNotPresentException -  -    at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 316
+   at PayrollSeleniumTest.PayrollFlowBase.HandleWidgetElementIdentifiedBy(String widget, String elementName, String identifiers, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\FrameworkUtil.cs:line 107
+   at PayrollSeleniumTest.PayrollFlowBase.WidgetClickOnElementIdentifiedBy(String widget, String elementName, String identifiers) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Override.cs:line 247
+2022-07-05 10:28:54.0824 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949: attemp #3
+2022-07-05 10:28:54.0824 DEBUG HandleWidgetElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949::False::30: START
+2022-07-05 10:28:54.0824 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: START
+2022-07-05 10:28:54.1158 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: Location 1
+2022-07-05 10:28:54.1158 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: Location 2
+2022-07-05 10:29:24.1598 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: caught exception OpenQA.Selenium.NoSuchElementException -  -    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 275
+2022-07-05 10:29:24.1598 DEBUG DriverGetElementIdentifiedBy - DropDownItemByValue::Garnishment120220705102525949::False::30: element not found, throw ElementNotPresentException
+2022-07-05 10:29:24.1598 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949: caught exception ElementNotPresentException -  -    at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 316
+   at PayrollSeleniumTest.PayrollFlowBase.HandleWidgetElementIdentifiedBy(String widget, String elementName, String identifiers, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\FrameworkUtil.cs:line 107
+   at PayrollSeleniumTest.PayrollFlowBase.WidgetClickOnElementIdentifiedBy(String widget, String elementName, String identifiers) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Override.cs:line 247
+2022-07-05 10:29:24.1618 DEBUG WidgetClickOnElementIdentifiedBy - EntitySelectorDropDown::DropDownItemByValue::Garnishment120220705102525949: attempts 0 or caught exception ElementNotPresentException -  -    at PayrollSeleniumTest.PayrollFlowBase.DriverGetElementIdentifiedBy(String elementName, String identifier, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Driver.cs:line 316
+   at PayrollSeleniumTest.PayrollFlowBase.HandleWidgetElementIdentifiedBy(String widget, String elementName, String identifiers, Boolean failNotFound, Int32 timeout, Boolean zeroSize) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\FrameworkUtil.cs:line 107
+   at PayrollSeleniumTest.PayrollFlowBase.WidgetClickOnElementIdentifiedBy(String widget, String elementName, String identifiers) in C:\Dayforce\tip\Test\DFAcceptanceTest\DFAcceptanceTest\PayrollSeleniumTest\Core\PayrollFlowBase\Override.cs:line 247
+2022-07-05 10:29:24.1618 DEBUG CaptureScreenShot: location 1
+2022-07-05 10:29:24.5681 DEBUG CaptureScreenShot: location 2

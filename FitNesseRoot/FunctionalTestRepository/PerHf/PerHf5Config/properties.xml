@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<properties>
+	<Edit/>
+	<Files/>
+	<Help/>
+	<Normal/>
+	<Properties/>
+	<Prune/>
+	<RecentChanges/>
+	<Search/>
+	<Suites/>
+  <SymbolicLinks>
+    <PerformanceSuite>file://../DfTestRepository/PerformanceSuite</PerformanceSuite>
+    <EnvironmentHealthCheckSuite>file://../DfTestRepository/EnvironmentHealthCheckSuite</EnvironmentHealthCheckSuite>
+  </SymbolicLinks>
+  <Versions/>
+	<WhereUsed/>
+</properties>

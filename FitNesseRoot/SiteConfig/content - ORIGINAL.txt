@@ -1,0 +1,21 @@
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,fitSharp\fitSharp.dll %p}
+!define TEST_RUNNER {fitSharp\Runner.exe}
+!define TEST_SYSTEM {slim}
+!define slim.timeout {900}
+
+#this will search all subdirectories of the folder for these .dlls
+!path ..\DFAcceptanceTest\**DFAcceptanceTest.dll
+!path ..\DFAcceptanceTest\**WFMSeleniumTest.dll
+!path ..\DFAcceptanceTest\**RecruitingSeleniumTest.dll
+!path ..\DFAcceptanceTest\**DFControllersTest.dll
+!path ..\DFAcceptanceTest\**HRSeleniumTest.dll
+!path ..\DFAcceptanceTest\**PlatformSeleniumTest.dll
+!path ..\DFAcceptanceTest\**ArchitectureSeleniumTest.dll
+!path ..\DFAcceptanceTest\**DFClientServerTest.dll
+!path ..\DFAcceptanceTest\**BenefitsSeleniumTest.dll
+!path ..\DFAcceptanceTest\**AppiumSampleTests.dll
+!path ..\DFAcceptanceTest\**WFMAppiumTest.dll
+!path ..\DFAcceptanceTest\**CompSeleniumTest.dll
+#!path ..\DFAcceptanceTest\**PerformanceSeleniumTest.dll
+
+!contents

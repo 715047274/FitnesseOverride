@@ -1,0 +1,14 @@
+!define baseRequestUri {https://ncqaautocontrol.dayforce.com/mydayforce/}
+!define BuildFolderLocation {!-\\torsvbuild06\builds\ncqaautocontrol\NCQAAUTOCONTROL\-!}
+!define ControlDbName {ncqaautocontrol}
+!define DbServer {NCQADB01}
+!define DbServerUserName {wbpoc}
+!define DbServerPassword {sql@tfs2008}
+!define ServerDrivesAvailable {d}
+#!define DbBackups {!-\\ncqadb01\DBBackups\-!${DbServer}!-\ncqaauto1\BuildBackups-!}
+!define DbBackups {!-\\ncqadb01\DBBackups\ProductionDBs-!}
+!define Workspace {!-C:\temp\Workspace\-!${ControlDbName}}
+!define deployerLocation {!-DatabaseDeployer\db_deployer-!}
+!define ProductDbString {}
+
+!contents

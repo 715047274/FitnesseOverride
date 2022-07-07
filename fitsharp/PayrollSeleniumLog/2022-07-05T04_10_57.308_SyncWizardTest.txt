@@ -1,0 +1,23 @@
+2022-07-05 16:11:30.9899 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: START
+2022-07-05 16:11:30.9899 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: GetVisibleElement start
+2022-07-05 16:11:31.0179 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: GetVisibleElement end
+2022-07-05 16:11:31.0419 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: base.start
+2022-07-05 16:11:32.1004 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: base.end
+2022-07-05 16:11:32.1004 DEBUG WidgetClickOnButton - PeopleTooltip::Cross: END
+2022-07-05 16:11:47.0492 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Check Box: START
+2022-07-05 16:11:47.0492 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Check Box: attempt #1
+2022-07-05 16:11:48.6234 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Check Box: END
+2022-07-05 16:11:48.6234 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Load: START
+2022-07-05 16:11:48.6234 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Load: attempt #1
+2022-07-05 16:11:51.0868 DEBUG WidgetGridClickCellByRowNumberColumnName - Overview::PayPeriod::1::Load: END
+2022-07-05 16:12:02.2134 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: START
+2022-07-05 16:12:02.2134 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: attemp #1
+2022-07-05 16:12:02.2134 DEBUG HandleWidgetElementIdentifiedBy - PayRunManagement::Tab::Quick Entry::False::30: START
+2022-07-05 16:12:02.2134 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: START
+2022-07-05 16:12:02.2508 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: Location 1
+2022-07-05 16:12:02.2508 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: Location 2
+2022-07-05 16:12:02.2768 DEBUG DriverGetElementIdentifiedBy - Tab::Quick Entry::False::30: END
+2022-07-05 16:12:02.2878 DEBUG HandleWidgetElementIdentifiedBy - PayRunManagement::Tab::Quick Entry::False::30: END
+2022-07-05 16:12:02.3058 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: base.start
+2022-07-05 16:12:03.3854 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: base.end
+2022-07-05 16:12:03.3854 DEBUG WidgetClickOnElementIdentifiedBy - PayRunManagement::Tab::Quick Entry: END

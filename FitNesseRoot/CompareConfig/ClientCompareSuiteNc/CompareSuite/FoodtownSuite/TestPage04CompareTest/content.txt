@@ -1,0 +1,9 @@
+!4 Parse Files
+!|script|Compare Tool|
+|$output=|Compare Files From Releases;|${prodCompareFilesLocation}|${rtqaCompareFilesLocation}|${DbBackups}!-\Rules\Rules.xml-!|
+
+!4 Compare Files
+!|script|Compare Tool|
+|check|AllFilesBetweenReleasesAreSame|$output|true|
+
+!contents -R2 -g -p -f -h

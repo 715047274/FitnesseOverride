@@ -1,0 +1,6 @@
+!-  ***  Trader Joes *** -!
+
+!define ClientName {at${release}rep89}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

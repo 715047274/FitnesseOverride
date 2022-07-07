@@ -1,0 +1,76 @@
+!4 General Site Info
+!define base {https://atarch.dayforce.com/qaautohf} 
+!define loginPage {${base}/mydayforce/MyDayforce.aspx}
+!define customDataServiceUri {${base}/DataSvc/CustomData.svc}
+!define baseRequestUri {${base}/mydayforce/}
+!define OutlookServiceUri {${base}/OutlookServices/}
+!define oDataRequestUri {${base}/Odata} 
+!define restfulApiUri {${base}/api/}
+!define restfulApiRootUri {https://qaautocontrol.dayforce.com/root/api/}
+!define deviceServiceUri {${base}/DeviceServices/DeviceService.svc}
+!define testServiceUri {${base}/TestServices/TestService.svc}
+!define coreServiceUri {${base}/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+!define userName {cadmin}
+!define password {1}
+!define SiteName {atarchqaautohf_site}
+!define siteType {QA}
+!define admSiteName {atarchqaautohf}
+!define siteRequestUri {${baseRequestUri}${SiteName}}
+!define clientPod {qaautohf}
+
+!4 Admin Portal Info
+!define adminRequestUri {https://qaautoadmin.dayforce.com/mydayforce/}
+!define adminNamespace {qaautoadmin}
+!define adminUserName {sysadmin}
+!define adminPass {1}
+
+!4 Admin Portal Test Clients Info
+!define apSharpTopClientNs {qaauto9}
+!define apSharpTopClientId {999909}
+!define apSharpTopClientRequestUri {${baseRequestUri}${apSharpTopClientNs}}
+#Not my first choice to put this here, but no clear path to getting it out of the service layer
+#Should be replace with new AP session authentication
+!define adminPortalDBConn {provider=sqloledb;server=nan4auto1sql01;database=qaautoadmin;uid=wbpoc;pwd=sql@tfs2008}
+
+!4 Admin Service Info
+!define masterAdminWebServiceUri {https://qaautoadmin.dayforce.com/datasvc/AdminService.svc}
+!define masterAdminWebServiceUsername {MasterSiteUser}
+!define masterAdminWebServicePassword {123456}
+!define masterAdminWebServiceBinding {StandardSslBinding}
+
+!4 BJE Info
+!define MasterBjeMachineName {NCQABJE1}
+!define bjrServer {ncqabje16}
+!define BasePayrollOutputServicesDirectory {\\${bjrServer}\_bje_imp_exp\_qaautocontrol_qaauto\PayrollOutputServices\}
+!define baseBjeFolder {\\${bjrServer}\_bje_imp_exp\_qaautocontrol_qaauto\}
+
+!4 Dayforce Services Info
+!define dsBindingTypeName {StandardSslBinding}
+!define dayforceServiceUri {${base}/DataSvc/DayforceService.svc}
+!define dsNotifReceiverServiceUri {!-https://qaautocontrol.dayforce.com/qaauto/DataSvc/DFNotificationReceiverService.svc-!}
+#!define dsNotifReceiverServiceUri {http://localhost:51121/DFNotificationReceiverService.svc}
+
+!4 Selenium configuration
+!define clockURL {https://qaautocontrol.dayforce.com/qaauto/clock/index.html}
+#!define browser {firefox}
+
+#----------------------ADMIN PORTAL SITE
+!4 General Admin Portal Site Info
+!define admRequestUri {https://qaautoadmin.dayforce.com/mydayforce/qaautoadmin}
+!define admCoreServiceUri {https://qaautoadmin.dayforce.com/datasvc/CoreService.svc}
+!define admTestServiceUri {https://qaautoadmin.dayforce.com/TestServices/TestService.svc}
+!define admTestServiceBindingTypeName {StandardSslBinding}
+!define admBindingTypeName {StandardCustomSslBinding}
+!define admUserName {admin}
+!define admPassword {admin123}
+!define admClientName {qaautoadmin}
+
+
+
+!4 General Admin Portal Site Info
+!4 Admin Portal Info
+#!define adminRequestUri {https://qaautoadmin.dayforce.com/mydayforce/}
+
+!contents -R2 -g -p -f -h

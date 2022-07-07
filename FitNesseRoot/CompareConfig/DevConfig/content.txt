@@ -1,0 +1,19 @@
+!path ..\DFAcceptanceTest\DFAcceptanceTest\bin\Debug\DFAcceptanceTest.dll
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!define baseRequestUri {http://localhost:51001/}
+!define bindingTypeName {StandardHttpBinding}
+!define userName {cadmin}
+!define password {1}
+!define testServiceBindingTypeName {BasicHttpBinding}
+
+
+#!define PayrollCompareFolder {\\dffs1\ydrive\Quality Assurance\Automation\CompareTool\Payroll}
+!define DbBackups {!-C:\temp\DBBackups\ClientDatabases-!}
+!define BuildFolderLocation {}
+!define Workspace {!-C:\Workspaces\Dayforce\SharpTop-!}
+!define DbServer {localhost}
+!define ServerDrivesAvailable {c}
+
+
+!contents

@@ -1,0 +1,6 @@
+!-  ***  ABL  ***  -!
+
+!define ClientName {at${release}rep20}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

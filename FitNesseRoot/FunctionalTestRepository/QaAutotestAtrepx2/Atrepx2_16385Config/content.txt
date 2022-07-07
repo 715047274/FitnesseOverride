@@ -1,0 +1,6 @@
+!-  ***  BMW *** -!
+
+!define ClientName {atrep${release}_16385}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

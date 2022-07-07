@@ -1,0 +1,4 @@
+!define coreServiceUri {https://qa.dayforce.com/748/DataSvc/CoreService.svc}
+!define YePayrollSiteName {748Payroll105}
+
+!contents

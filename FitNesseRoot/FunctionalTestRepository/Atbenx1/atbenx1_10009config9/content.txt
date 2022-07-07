@@ -1,0 +1,4 @@
+!define ClientName {atben${version}_10009}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

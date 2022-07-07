@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<properties>
+	<Edit/>
+	<Files/>
+	<Normal/>
+	<Properties/>
+	<Prune/>
+	<RecentChanges/>
+	<Search/>
+	<SymbolicLinks>
+		<AcceptanceTestSuite>file://../DfTestRepository/AcceptanceTestSuite</AcceptanceTestSuite>
+		<PrSuite>file://../DfTestRepository/PrSuite</PrSuite>
+	</SymbolicLinks>
+	<Versions/>
+	<WhereUsed/>
+</properties>

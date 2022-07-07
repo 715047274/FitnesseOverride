@@ -1,0 +1,27 @@
+
+!define customDataServiceUri {https://qaautocontrol.dayforce.com/qaauto/DataSvc/CustomData.svc}
+!define baseRequestUri {https://qaautocontrol.dayforce.com/qaauto/mydayforce/}
+!define deviceServiceUri {https://qaautocontrol.dayforce.com/qaauto/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://qaautocontrol.dayforce.com/qaauto/TestServices/TestService.svc}
+!define coreServiceUri {https://qaautocontrol.dayforce.com/qaauto/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+!define dayforceServiceUri {https://qaautocontrol.dayforce.com/qaauto/DataSvc/DayforceService.svc}
+!define dsBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+#!define adminUserName {InternalAdminPortalClockUser}
+#!define adminPass {1}
+
+Admin Portal Configuration
+!define adminRequestUri {https://qaautoadminportal.dayforce.com/mydayforce/}
+!define adminNamespace {qaautoadminportal}
+!define adminUserName {sysadmin}
+!define adminPass {1}
+
+!define bjrServer {ncqabje1}
+!define BasePayrollOutputServicesDirectory {\\${bjrServer}\FTPROOT\qaautocontrol\PayrollOutputServices\}
+!define baseBjeFolder {\\${bjrServer}\FTPROOT\qaautocontrol\}
+
+
+!contents

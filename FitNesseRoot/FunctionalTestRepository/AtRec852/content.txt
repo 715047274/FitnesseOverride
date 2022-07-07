@@ -1,0 +1,26 @@
+!define version {852}
+
+!define baseRequestUri {https://at.dayforce.com/${version}rec/mydayforce/}
+!define baseCandidatePortalUri {https://at.dayforce.com/${version}rec/CandidatePortal/}
+!define baseCandidatePortalIframeUri {https://at.dayforce.com/${version}rec/CandidatePortal/SampleClientHost.html}
+!define customDataServiceUri {https://at.dayforce.com/${version}rec/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://at.dayforce.com/${version}rec/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://at.dayforce.com/${version}rec/TestServices/TestService.svc}
+!define coreServiceUri {https://at.dayforce.com/${version}rec/DataSvc/CoreService.svc}
+!define loginUri {https://at.dayforce.com/${version}rec/mydayforce/MyDayforce.aspx}
+!define sovrenServiceUri {https://at.dayforce.com/${version}rec/DataSvc/SovrenService.svc}
+
+!define bindingTypeName {StandardSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define bjeServer {ncqabje16}
+!define baseBjeFolder {\\${bjeServer}\_bje_imp_exp\at${version}rec\}
+!define appServer {ncqaapp13}
+!define baseCandidatePortalFolder {\\${appServer}\Dayforce\at\${version}rec\CandidatePortal\}
+!define candidatePortalFile {${baseCandidatePortalFolder}SampleClientHost.html}
+!define BasePayrollOutputServicesDirectory {\\${bjeServer}\_bje_imp_exp\_${version}rec\PayrollOutputServices\}
+!define BaseSovrenDirectory {\\ncqaapp05\Sovren\}
+
+!contents

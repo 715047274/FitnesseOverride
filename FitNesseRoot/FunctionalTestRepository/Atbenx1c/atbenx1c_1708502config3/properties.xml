@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<properties>
+<Edit/>
+<Files/>
+<Help/>
+<Normal/>
+<Properties/>
+<Prune/>
+<RecentChanges/>
+<Search/>
+<Suites/>
+<SymbolicLinks>
+<BenClientBaseSuite>file://../DfTestRepository/BenClientBaseSuite</BenClientBaseSuite>
+<EnvironmentHealthCheckSuite>file://../DfTestRepository/EnvironmentHealthCheckSuite</EnvironmentHealthCheckSuite>
+</SymbolicLinks>
+<Versions/>
+<WhereUsed/>
+</properties>

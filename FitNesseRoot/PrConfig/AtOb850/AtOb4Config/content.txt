@@ -1,0 +1,10 @@
+!define ClientName {${version}atob4}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define candidateUri {${baseCandidatePortalUri}en-US/${ClientName}}
+!define candidateUriIframe {${baseCandidatePortalUri}${ClientName}.html}
+!define candidatePortalIframe {${baseCandidatePortalFolder}${ClientName}.html}
+!define ClientId {10004}
+!define CultureId {1033}
+!define SovrenDirectory {${BaseSovrenDirectory}Resume_${version}atob4-temp\XML}
+
+!contents

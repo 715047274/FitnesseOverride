@@ -1,0 +1,6 @@
+!-  ***  MediFit  *** -!
+
+!define ClientName {at${release}rep9}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

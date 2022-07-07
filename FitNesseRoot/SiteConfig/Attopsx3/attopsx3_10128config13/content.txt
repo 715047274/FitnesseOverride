@@ -1,0 +1,4 @@
+!define ClientName {attops${version}_10128}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

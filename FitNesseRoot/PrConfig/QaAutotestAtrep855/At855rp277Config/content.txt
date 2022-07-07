@@ -1,0 +1,6 @@
+!-  ***  RBC *** -!
+
+!define ClientName {at${release}rep277}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

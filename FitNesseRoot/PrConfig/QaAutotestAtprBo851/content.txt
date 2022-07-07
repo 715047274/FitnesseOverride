@@ -1,0 +1,22 @@
+!define release {851}
+!define baseRequestUrl {https://autotest.dayforce.com}
+!define customDataServiceUri {${baseRequestUrl}/${release}atprbo/DataSvc/CustomData.svc}
+!define baseRequestUri {${baseRequestUrl}/${release}atprbo/mydayforce/}
+!define deviceServiceUri {${baseRequestUrl}/${release}atprbo/DeviceServices/DeviceService.svc}
+!define testServiceUri {${baseRequestUrl}/${release}atprbo/TestServices/TestService.svc}
+!define coreServiceUri {${baseRequestUrl}/${release}atprbo/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define BasePayrollOutputServicesDirectory {\\ncqabje7\_bje_imp_exp\_${release}atprbo\PayrollOutputServices\}
+
+!define baseArcBjeLoc {\\ncqabje8\_bje_imp_exp\_${release}atprbo\}
+!define baseTempBjeLoc {\\ncqabje8\_bje_imp_exp\_${release}atprbo\}
+!define baseBjeImportLoc {\\ncqabje8\_bje_imp_exp\_${release}atprbo\}
+
+!define HrImportLocGood {Y:\Quality Assurance\Tools\FitNesse\HrImport\HRImport_EmpInfoOnly3.xml}
+!define HrImportLocBad {Y:\Quality Assurance\Tools\FitNesse\HrImport\HRImport_EmpInfoOnly4.xml}
+
+!contents

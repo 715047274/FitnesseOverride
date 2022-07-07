@@ -1,0 +1,18 @@
+!|import|
+|fitnesse.slim.text|
+|fitnesse.fixtures|
+|DFAcceptanceTest|
+
+!***> Create Test Context
+|Library|
+|slim context | 
+
+!|script|Slim Context|
+#|User Name|${userName}|
+#|Password|${password}|
+#|Test Service Uri|${testServiceUri}|
+#|Core Service Uri|${coreServiceUri}|
+#|Binding Type Name|${bindingTypeName}|
+#|Test Service Binding Type Name|${testServiceBindingTypeName}|
+
+*****!

@@ -1,0 +1,26 @@
+<Export>
+	<Record>
+		<EmployeeNumber>12345</EmployeeNumber>
+		<OrgName></OrgName>
+		<PayClass>PT</PayClass>
+		<PayType>Hourly(Non-Exempt)</PayType>
+		<PayCategoryName></PayCategoryName>
+		<PayCodeName>WORK</PayCodeName>
+		<TotalHours>4.00</TotalHours>
+		<Rate>25.00</Rate>
+		<IsPremium>.0</IsPremium>
+		<IsRetro>.0</IsRetro>
+	</Record>
+	<Record>
+		<EmployeeNumber>44444</EmployeeNumber>
+		<OrgName></OrgName>
+		<PayClass>PT</PayClass>
+		<PayType>Hourly(Non-Exempt)</PayType>
+		<PayCategoryName></PayCategoryName>
+		<PayCodeName>WORK</PayCodeName>
+		<TotalHours>5.00</TotalHours>
+		<Rate>25.00</Rate>
+		<IsPremium>.0</IsPremium>
+		<IsRetro>.0</IsRetro>
+	</Record>
+</Export>

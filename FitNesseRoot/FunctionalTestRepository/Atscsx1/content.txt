@@ -1,0 +1,21 @@
+!define version {x1}
+
+!define baseRequestUri {https://atscs.dayforce.com/${version}/mydayforce/}
+!define baseCandidatePortalUri {https://atscs.dayforce.com/${version}/CandidatePortal/}
+!define customDataServiceUri {https://atscs.dayforce.com/${version}/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://atscs.dayforce.com/${version}/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://atscs.dayforce.com/${version}/TestServices/TestService.svc}
+!define coreServiceUri {https://atscs.dayforce.com/${version}/DataSvc/CoreService.svc}
+!define loginUri {https://atscs.dayforce.com/${version}/mydayforce/MyDayforce.aspx}
+!define sovrenServiceUri {https://atscs.dayforce.com/${version}/DataSvc/SovrenService.svc}
+
+!define bindingTypeName {StandardCustomSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define bjeServer {ncqabje16}
+!define baseBjeFolder {\\${bjeServer}\_bje_imp_exp\atscs${version}\}
+!define appServer {nan4dfc1app13}
+
+!contents

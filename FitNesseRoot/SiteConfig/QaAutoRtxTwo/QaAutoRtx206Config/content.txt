@@ -1,0 +1,18 @@
+!define ClientName {qaautortx206}
+!define ClientId {111206}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define siteRequestUri {${baseRequestUri}${SiteName}}
+!define OutlookUri {${OutlookServiceUri}}
+!define PayrollOutputServicesDirectory {${BasePayrollOutputServicesDirectory}${ClientName}\archive}
+!define ArcBjeLoc {${baseArcBjeLoc}${ClientName}\Export\}
+!define TempBjeLoc {${baseTempBjeLoc}${ClientName}\Export\Payroll Export\temp}
+!define BjeImportLoc {${baseBjeImportLoc}${ClientName}\Import\HRImport}
+!define EmployeeManagerBjeImportLoc {${baseBjeImportLoc}${ClientName}\Import\EmployeeManagerImport}
+!define testServiceBindingTypeName {TestIntSslBinding}
+!define bindingTypeName {TestIntCustomSslBinding}
+
+!4 Parameters for Config Service testing
+!define NameSpace {qaautortx206}
+
+
+!contents

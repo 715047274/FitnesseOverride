@@ -1,0 +1,28 @@
+!define release {860}
+!define ClientId {1008}
+!define ClientName {dflocal}
+!define userName {cadmin}
+!define password {1}
+!define adminUserName {admin}
+!define adminPass {cadmin}
+
+!path ..\DFAcceptanceTest\AdHocReportingSeleniumTest.dll 
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!1 Use this definition if needed to connect to the Local environment: baseRequestUri {http://localhost:51000/MyDayforce.aspx}
+!2 The baseRequestUri definition below will connect to the latest code being run from local. 
+!3 Make sure you run Main solution. OR if you are a r.ps1 user, run ui.ps1
+!define baseRequestUri {http://localhost:51000/}
+!define requestUri {${baseRequestUri}${ClientName}} 
+!define deviceServiceUri {http://localhost:51294/DeviceService.svc}
+!define bindingTypeName {StandardHttpBindingWithLongTimeOut}
+!define testServiceBindingTypeName {BasicHttpBindingWithLongTimeOut}
+
+!define bjeServer {localhost\c$}
+!define BasePayrollOutputServicesDirectory {c:\FTPROOT\DFControl\PayrollOutputServices\}
+!define baseBjeFolder {c:\FTPROOT\DFControl\}
+
+
+!contents
+
+

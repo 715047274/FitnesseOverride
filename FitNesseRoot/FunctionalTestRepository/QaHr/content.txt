@@ -1,0 +1,15 @@
+
+!define customDataServiceUri {https://qahrcontrol.dayforce.com/DataSvc/CustomData.svc}
+!define baseRequestUri {https://qahrcontrol.dayforce.com/mydayforce/}
+!define deviceServiceUri {https://qahrcontrol.dayforce.com/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://qahrcontrol.dayforce.com/TestServices/TestService.svc}
+!define coreServiceUri {https://qahrcontrol.dayforce.com/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define bjrServer {torsvint04}
+!define baseBjeFolder {\\${bjrServer}\_bje_app\}
+
+!contents

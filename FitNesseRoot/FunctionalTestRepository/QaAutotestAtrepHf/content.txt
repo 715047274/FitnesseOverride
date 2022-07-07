@@ -1,0 +1,36 @@
+
+!define release {hf}
+
+!path ..\DFAcceptanceTest\DFAcceptanceTest\bin\Debug\AdHocReportingSeleniumTest.dll 
+
+Service Endpoints
+!define customDataServiceUri {https://atrep.dayforce.com/${release}/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://atrep.dayforce.com/${release}/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://atrep.dayforce.com/${release}/TestServices/TestService.svc}
+!define coreServiceUri {https://atrep.dayforce.com/${release}/DataSvc/CoreService.svc}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define bindingTypeName {StandardCustomSslBinding}
+
+Test Context
+!define baseRequestUri {https://atrep.dayforce.com/${release}/mydayforce/}
+!define userName {cadmin}
+!define password {1}
+
+Admin Portal Configuration
+!define adminRequestUri {https://atrep.dayforce.com/${release}/mydayforce/}
+!define adminNamespace {adhocadmin}
+!define adminUserName {admin}
+!define adminPass {admin123}
+
+BJE configuration
+!define bjrServer {ncqabje2}
+!define BasePayrollOutputServicesDirectory {\\${bjrServer}\_bje_imp_exp\atwfm_${version}\PayrollOutputServices\}
+!define baseBjeFolder {\\${bjrServer}\_bje_imp_exp\atwfm_${version}\}
+
+Selenium configuration
+!define seleniumHost {localhost}
+!define seleniumPort {4444}
+!define seleniumBrowser {*firefox}
+!define baseURL {hhttps://atrep.dayforce.com/${release}/Clock/index.html}
+
+!contents

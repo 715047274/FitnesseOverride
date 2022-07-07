@@ -1,0 +1,83 @@
+!4 General Site Info
+!define deviceServiceUri {http://localhost:51294/DeviceService.svc}
+!define jsonServiceUri {http://localhost:51294/DeviceServiceJson.svc}
+
+!4 General Admin Portal Site Info
+!define loginPage {https://qaautoadmin.dayforce.com/mydayforce/MyDayforce.aspx}
+!define admControllerRequestUri {https://qaautoadmin.dayforce.com/mydayforce}
+!define admRequestUri {https://qaautoadmin.dayforce.com/mydayforce}
+!define admControllerRequestUri {https://qaautoadmin.dayforce.com/mydayforce}
+!define admCoreServiceUri {https://qaautoadmin.dayforce.com/datasvc/CoreService.svc}
+!define admTestServiceUri {https://qaautoadmin.dayforce.com/TestServices/TestService.svc}
+!define admTestServiceBindingTypeName {StandardSslBinding}
+!define admBindingTypeName {StandardCustomSslBinding}
+!define admUserName {admin}
+!define admPassword {admin123}
+!define admClientName {qaautoadmin}
+
+!Web Service Info
+!define baseSiteUri {https://qaautoadmin.dayforce.com/}
+!define requestUri {https://qaautoadmin.dayforce.com/mydayforce/}
+
+!define customDataServiceUri {${baseSiteUri}DataSvc/CustomData.svc}
+!define deviceServiceUri {${baseSiteUri}DeviceServices/DeviceService.svc}
+!define testServiceUri {${baseSiteUri}TestServices/TestService.svc}
+!define coreServiceUri {${baseSiteUri}DataSvc/CoreService.svc}
+!define dsBindingTypeName {StandardSslBinding}
+!define dayforceServiceUri {${baseSiteUri}DataSvc/DayforceService.svc}
+!define testServiceBindingTypeName {TestIntSslBinding}
+!define bindingTypeName {TestIntCustomSslBinding}
+!define userName {admin}
+!define password {admin123}
+!define SiteName {qaautoadmin}
+!define ClientName {qaautoadmin}
+
+!4 Admin Service Info
+!define masterAdminWebServiceUri {${baseSiteUri}DataSvc/AdminService.svc}
+!define masterAdminWebServiceUsername {MasterSiteUser}
+!define masterAdminWebServicePassword {123456}
+!define masterAdminWebServiceBinding {StandardSslBinding}
+
+!4 Admin Portal Test Client Site Info For Sharp Top Client
+!define apSharpTopSiteName {qaautortx10}
+!define apSharpTopClientNs {qaautortx19}
+!define apSharpTopClientId {999909}
+!define apClientUserName {cadmin}
+!define apClientPassword {1}
+!define apClientRequestUri {https://qaautocontrol.dayforce.com/qaautortx1/mydayforce/qaautortx19}
+!define apClientDeviceServiceUri {https://qaautocontrol.dayforce.com/qaautortx1/DeviceServices/DeviceService.svc}
+!define apClientTestServiceUri {https://qaautocontrol.dayforce.com/qaautortx1/TestServices/TestService.svc}
+!define apClientCoreServiceUri {https://qaautocontrol.dayforce.com/qaautortx1/DataSvc/CoreService.svc}
+!define apClientTestServiceBindingTypeName {StandardSslBinding}
+!define apClientBindingTypeName {StandardCustomSslBinding}
+
+!4 Admin Portal Test Client Site Info For RTX2 Client
+!define apRtx2ClientSiteName {qaautortx2}
+!define apRtx2ClientNs {qaautortx209}
+!define apRtx2ClientId {222209}
+!define apRtx2ClientUserName {cadmin}
+!define apRtx2ClientPassword {1}
+!define apRtx2ClientRequestUri {https://qaautocontrol.dayforce.com/qaautortx2/mydayforce/qaautortx209}
+!define apRtx2ClientDeviceServiceUri {https://qaautocontrol.dayforce.com/qaautortx2/DeviceServices/DeviceService.svc}
+!define apRtx2ClientTestServiceUri {https://qaautocontrol.dayforce.com/qaautortx2/TestServices/TestService.svc}
+!define apRtx2ClientCoreServiceUri {https://qaautocontrol.dayforce.com/qaautortx2/DataSvc/CoreService.svc}
+!define apRtx2ClientTestServiceBindingTypeName {StandardSslBinding}
+!define apRtx2ClientBindingTypeName {StandardCustomSslBinding}
+
+!4 Admin Portal Test Client Site Info For RTX3 Client
+!define apRtx3ClientSiteName {qaautortx3}
+!define apRtx3ClientNs {qaautortx309}
+!define apRtx3ClientId {333309}
+!define apRtx3ClientUserName {cadmin}
+!define apRtx3ClientPassword {1}
+!define apRtx3ClientRequestUri {https://qaautocontrol.dayforce.com/qaautortx3/mydayforce/qaautortx309}
+!define apRtx3ClientDeviceServiceUri {https://qaautocontrol.dayforce.com/qaautortx3/DeviceServices/DeviceService.svc}
+!define apRtx3ClientTestServiceUri {https://qaautocontrol.dayforce.com/qaautortx3/TestServices/TestService.svc}
+!define apRtx3ClientCoreServiceUri {https://qaautocontrol.dayforce.com/qaautortx3/DataSvc/CoreService.svc}
+!define apRtx3ClientTestServiceBindingTypeName {StandardSslBinding}
+!define apRtx3ClientBindingTypeName {StandardCustomSslBinding}
+
+
+
+
+!contents

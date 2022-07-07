@@ -1,0 +1,73 @@
+!define DbBackups {!-\\ncdbqa01\DBBackups\QAautotest-!}
+!define deployerLocation {!-DatabaseDeployer\db_deployer-!}
+
+!define TestServiceBindingTypeName {StandardSslBinding}
+!define BindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define BuildFolderLocation {}
+!define ServerDrive {D:}
+!define RootDir {\Dayforce\}
+!define LocalPath {}
+!define LocalPathb {}
+#LocalPath {\SharpTop\Test}
+#LocalPathb {\DFAcceptanceTest}
+!define FitNesseDll {!-\DFAcceptanceTest\DFAcceptanceTest\bin\Debug-!}
+
+!*> Prod Definition
+
+!define prodBranch {642control_at}
+#Local prodBranch {140218_642}
+!define prodAutoTest {642autotest}
+!define prodRelease {642}
+
+!4 for the DB restore tool
+!define prodControlDbName {642control_at}
+!define prodDbServer {ncdbqa01}
+!define prodDbServerUserName {wbpoc}
+!define prodDbServerPassword {sql@tfs2008}
+
+!define prodWorkspace {${ServerDrive}${RootDir}${prodBranch}${LocalPath}}
+!define prodImpExpDir {!-\\ncqabje7\_bje_imp_exp\_test_-!${prodRelease}!-_at-!}
+!define prodPathToSlim {${ServerDrive}${RootDir}${prodBranch}${LocalPath}${LocalPathb}!-\FitNesse\fitsharp-!}
+!define prodPathToFixture {${ServerDrive}${RootDir}${prodBranch}${LocalPath}${LocalPathb}${FitNesseDll}}
+
+!define prodTestServiceUri {!-https://test.dayforce.com/-!${prodAutoTest}!-/TestServices/TestService.svc-!}
+!define prodCoreServiceUri {!-https://test.dayforce.com/-!${prodAutoTest}!-/DataSvc/CoreService.svc-!}
+!define prodBaseRequestUri {!-https://test.dayforce.com/-!${prodAutoTest}!-/mydayforce/-!}
+
+*!
+!*> RTQA Definition
+
+!define rtqaBranch {643control_at}
+#Local rtqaBranch {Main}
+!define rtqaAutoTest {643autotest}
+!define rtqaRelease {643}
+
+!4 for the DB restore tool
+!define rtqaControlDbName {643control_at}
+!define rtqaDbServer {ncdbqa01}
+!define rtqaDbServerUserName {wbpoc}
+!define rtqaDbServerPassword {sql@tfs2008}
+
+!define rtqaWorkspace {${ServerDrive}${RootDir}${rtqaBranch}${LocalPath}}
+!define rtqaImpExpDir {!-\\ncqabje7\_bje_imp_exp\_test_-!${rtqaRelease}!-_at-!}
+!define rtqaPathToSlim {${ServerDrive}${RootDir}${rtqaBranch}${LocalPath}${LocalPathb}!-\FitNesse\fitsharp-!}
+!define rtqaPathToFixture {${ServerDrive}${RootDir}${rtqaBranch}${LocalPath}${LocalPathb}${FitNesseDll}}
+
+!define rtqaTestServiceUri {!-https://test.dayforce.com/-!${rtqaAutoTest}!-/TestServices/TestService.svc-!}
+!define rtqaCoreServiceUri {!-https://test.dayforce.com/-!${rtqaAutoTest}!-/DataSvc/CoreService.svc-!}
+!define rtqaBaseRequestUri {!-https://test.dayforce.com/-!${rtqaAutoTest}!-/mydayforce/-!}
+
+*!
+!*> Default Fixture Definition
+
+!define PATH_TO_SLIM {${rtqaPathToSlim}}
+!define PATH_TO_FIXTURE (${rtqaPathToFixture})
+
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,${PATH_TO_SLIM}\fitSharp.dll -a ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll.config ${PATH_TO_FIXTURE}\DFAcceptanceTest.dll}
+!define TEST_RUNNER {${PATH_TO_SLIM}\Runner.exe}
+*!
+
+!contents -R3 -g -p -f -h

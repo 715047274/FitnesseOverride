@@ -1,0 +1,9 @@
+!define ClientName {${release}5}
+!define requestUri {${baseRequestUri}${ClientName}}
+!define PayrollOutputServicesDirectory {${BasePayrollOutputServicesDirectory}${ClientName}\archive}
+!define ArcBjeLoc {${baseArcBjeLoc}${ClientName}\Export\}
+!define TempBjeLoc {${baseTempBjeLoc}${ClientName}\Export\Payroll Export\temp}
+!define BjeImportLoc {${baseBjeImportLoc}${ClientName}\Import\HRImport}
+!define EmployeeManagerBjeImportLoc {${baseBjeImportLoc}${ClientName}\Import\EmployeeManagerImport}
+
+!contents

@@ -1,0 +1,18 @@
+!define version {854}
+
+!define baseRequestUri {https://at.dayforce.com/${version}ax/mydayforce/}
+!define baseCandidatePortalUri {https://at.dayforce.com/${version}ax/CandidatePortal/}
+!define customDataServiceUri {https://at.dayforce.com/${version}ax/DataSvc/CustomData.svc}
+!define deviceServiceUri {https://at.dayforce.com/${version}ax/DeviceServices/DeviceService.svc}
+!define testServiceUri {https://at.dayforce.com/${version}ax/TestServices/TestService.svc}
+!define coreServiceUri {https://at.dayforce.com/${version}ax/DataSvc/CoreService.svc}
+
+!define bindingTypeName {StandardCustomSslBinding}
+!define testServiceBindingTypeName {StandardSslBinding}
+!define userName {cadmin}
+!define password {1}
+
+!define baseBjeFolder {\\ncqabje16\_bje_imp_exp\at${version}ax\}
+!define baseBjeImportLoc {\\ncqabje16\_bje_imp_exp\at${version}ax\}
+
+!contents

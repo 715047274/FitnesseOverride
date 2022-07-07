@@ -1,0 +1,4 @@
+!define ClientName {atwfmcore${version}_12}
+!define requestUri {${baseRequestUri}${ClientName}}
+
+!contents

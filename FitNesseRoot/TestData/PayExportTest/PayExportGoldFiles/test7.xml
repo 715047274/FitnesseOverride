@@ -1,0 +1,28 @@
+<Export>
+	<Record>
+		<EmployeeNumber>55555</EmployeeNumber>
+		<OrgName></OrgName>
+		<PayClass>PT</PayClass>
+		<PayType>Hourly(Non-Exempt)</PayType>
+		<Rate>.00</Rate>
+		<WrkTotalHours></WrkTotalHours>
+		<WrkIsPremium></WrkIsPremium>
+		<WrkIsRetro></WrkIsRetro>
+		<VACCTotalHours>10.00</VACCTotalHours>
+		<VACCIsPremium>True</VACCIsPremium>
+		<VACCIsRetro>False</VACCIsRetro>
+	</Record>
+	<Record>
+		<EmployeeNumber>55555</EmployeeNumber>
+		<OrgName></OrgName>
+		<PayClass>PT</PayClass>
+		<PayType>Hourly(Non-Exempt)</PayType>
+		<Rate>25.00</Rate>
+		<WrkTotalHours>5.00</WrkTotalHours>
+		<WrkIsPremium>False</WrkIsPremium>
+		<WrkIsRetro>False</WrkIsRetro>
+		<VACCTotalHours></VACCTotalHours>
+		<VACCIsPremium></VACCIsPremium>
+		<VACCIsRetro></VACCIsRetro>
+	</Record>
+</Export>
