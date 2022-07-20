@@ -7,3 +7,4 @@ CompareConfig
 ConfigServiceConfig
 SiteConfig
 PrConfig
+LocalTestConfig

@@ -1,0 +1,37 @@
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,"C:\Dayforce\POC\fitsharp\source\Runner\bin\Debug\net5.0-windows\fitSharp.dll" %p}
+!define TEST_RUNNER {C:\Dayforce\POC\fitsharp\source\Runner\bin\Debug\net5.0-windows\Runner.exe}
+!define basep {!-C:\Dayforce\POC\FitNesseFitSharpFibonacciDemo\ExtendedMath-!}
+
+#this will search all subdirectories of the folder for these .dlls
+
+#this will search all subdirectories of the folder for these .dlls
+#!path ${basep}\ExtendedMath\bin\Release\net5.0\*.dll
+!path C:\Dayforce\POC\FitNesseFitSharpFibonacciDemo\ExtendedMath\ExtendedMathFixtures\bin\Debug\net5.0\ExtendedMathFixtures.dll
+
+
+!define coreServiceUri {http://localhost:56798/CoreService.svc}
+!define testServiceUri {http://localhost:51121/TestService.svc}
+!define deviceServiceUri {http://localhost:51294/DeviceService.svc}
+!define requestUri {http://localhost:51000}
+!define baseRequestUri {${requestUri}}
+!define bindingTypeName {StandardHttpBindingWithLongTimeOut}
+!define userName {cadmin}
+!define ClientName {DFLocal}
+!define password {1}
+!define ClientId {10000}
+!define testServiceBindingTypeName {BasicHttpBindingWithLongTimeOut}
+!define adminRequestUri {http://localhost:51000}
+!define adminNamespace {AdminPortal}
+!define adminUserName {admin}
+!define adminPass {1}
+
+!define bjeServer {localhost\c$}
+!define baseBjeImportLoc {C:\Temp\bje\tip\import\}
+#!define BasePayrollOutputServicesDirectory {c:\FTPROOT\DFControl\PayrollOutputServices\}
+!define BasePayrollOutputServicesDirectory {C:\Temp\bje\tip\export\PayrollOutputServices\}
+#!define baseBjeFolder {c:\FTPROOT\DFControl\}
+!define baseBjeFolder {C:\Temp\bje\tip\import\DFLocal}
+!define baseRequestLogin (${requestUri}/MyDayforce.aspx)
+
+!contents
